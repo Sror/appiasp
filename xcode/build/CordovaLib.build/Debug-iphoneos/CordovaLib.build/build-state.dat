@@ -1,0 +1,1184 @@
+TCordovaLib
+v6
+r1
+cCheck dependencies
+cCpHeader Classes/CDVInvokedUrlCommand.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+cCpHeader Classes/NSDictionary+Extensions.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+cCpHeader Classes/NSData+Base64.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+cCpHeader Classes/CDVPluginResult.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+cCpHeader Classes/CDVPlugin.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+cCpHeader Classes/CDVDebug.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVDebug.h
+cCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+cCpHeader Classes/CDVWhitelist.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+cCpHeader Classes/CDVURLProtocol.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+cCpHeader Classes/CDVViewController.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVViewController.h
+cCpHeader Classes/CDVCommandDelegate.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+cCpHeader Classes/CDV.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDV.h
+cCpHeader Classes/CDVAvailability.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+cCpHeader Classes/CDVLocalStorage.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+cCpHeader Classes/UIDevice+Extensions.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+cCpHeader Classes/NSArray+Comparisons.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+cCpHeader Classes/CDVCommandQueue.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+cCpHeader Classes/CDVCommandDelegateImpl.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+cCpHeader Classes/CDVShared.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVShared.h
+cCpHeader Classes/CDVScreenOrientationDelegate.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+cCpHeader Classes/CDVConfigParser.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVConfigParser.h
+cCpHeader Classes/CDVJSON.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVJSON.h
+cCpHeader Classes/CDVWebViewDelegate.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
+cCpHeader Classes/CDVUserAgentUtil.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
+cCpHeader Classes/CDVTimer.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVTimer.h
+cProcessPCH /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVTimer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVShared.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/libCordova.a normal armv7
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c00000000521BCCE10000000000000110
+t1377553633
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c0000000052540164000000000000036B
+t1381237092
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052540165000000000000019E
+t1381237093
+s414
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDV.h
+c0000000052614BAF0000000000000516
+t1382108079
+s1302
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+c0000000052614BAF0000000000000C83
+t1382108079
+s3203
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+c0000000052614BAF00000000000008BA
+t1382108079
+s2234
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+c0000000052614BAF0000000000000473
+t1382108079
+s1139
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+c0000000052614BAF000000000000126E
+t1382108079
+s4718
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+c0000000052614BAF0000000000000501
+t1382108079
+s1281
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+c0000000052614BAF000000000000158B
+t1382108079
+s5515
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+c0000000052614BAF00000000000004CB
+t1382108079
+s1227
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+c0000000052614BAF0000000000000EB2
+t1382108079
+s3762
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVDebug.h
+c0000000052614BAF0000000000000401
+t1382108079
+s1025
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+c0000000052614BAF00000000000007E6
+t1382108079
+s2022
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+c0000000052614BAF0000000000000DDE
+t1382108079
+s3550
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVJSON.h
+c0000000052614BAF00000000000003DA
+t1382108079
+s986
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVJSON.m
+c0000000052614BAF000000000000098E
+t1382108079
+s2446
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+c0000000052614BAF00000000000006CF
+t1382108079
+s1743
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+c0000000052614BAF0000000000004C7E
+t1382108079
+s19582
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+c0000000052614BAF0000000000000892
+t1382108079
+s2194
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+c0000000052614BAF00000000000016AE
+t1382108079
+s5806
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+c0000000052614BAF0000000000000C13
+t1382108079
+s3091
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+c0000000052614BAF0000000000001B29
+t1382108079
+s6953
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+c0000000052614BAF0000000000000408
+t1382108079
+s1032
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVShared.h
+c0000000052614BAF00000000000003E6
+t1382108079
+s998
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVShared.m
+c0000000052614BAF00000000000006B6
+t1382108079
+s1718
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVTimer.h
+c0000000052614BAF000000000000038D
+t1382108079
+s909
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVTimer.m
+c0000000052614BAF0000000000000AA2
+t1382108079
+s2722
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+c0000000052614BAF000000000000041C
+t1382108079
+s1052
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+c0000000052614BAF0000000000002514
+t1382108079
+s9492
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+c0000000052614BAF0000000000000421
+t1382108079
+s1057
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+c0000000052614BAF00000000000012A2
+t1382108079
+s4770
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVViewController.h
+c0000000052614BAF0000000000000ACC
+t1382108079
+s2764
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVViewController.m
+c0000000052614BAF0000000000009F3C
+t1382108079
+s40764
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+c0000000052614BAF00000000000005A2
+t1382108079
+s1442
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+c0000000052614BAF00000000000037C6
+t1382108079
+s14278
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+c0000000052614BAF00000000000004B4
+t1382108079
+s1204
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+c0000000052614BAF00000000000027D3
+t1382108079
+s10195
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+c0000000052614BAF0000000000000392
+t1382108079
+s914
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+c0000000052614BAF00000000000004D8
+t1382108079
+s1240
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+c0000000052614BAF000000000000037D
+t1382108079
+s893
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+c0000000052614BAF00000000000022CC
+t1382108079
+s8908
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+c0000000052614BAF00000000000005DA
+t1382108079
+s1498
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+c0000000052614BAF0000000000001059
+t1382108079
+s4185
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+c0000000052614BAF00000000000003A0
+t1382108079
+s928
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+c0000000052614BAF0000000000000584
+t1382108079
+s1412
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+c0000000052614BAF0000000000000476
+t1382108079
+s1142
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+c0000000052614BAF0000000000000620
+t1382108079
+s1568
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
+c0000000052614BAF0000000000000346
+t1382108079
+s838
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o
+t1382108091
+s63844
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o
+t1382108091
+s60400
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o
+t1382108091
+s29352
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o
+t1382108090
+s18660
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o
+t1382108091
+s11132
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o
+t1382108091
+s112432
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o
+t1382108090
+s59060
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o
+t1382108090
+s37044
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o
+t1382108092
+s9412
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o
+t1382108092
+s23148
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o
+t1382108090
+s72812
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o
+t1382108091
+s54356
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o
+t1382108091
+s201428
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o
+t1382108092
+s74812
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o
+t1382108090
+s44696
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/Cordova.LinkFileList
+c0000000052614BB80000000000000CB7
+t1382108088
+s3255
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o
+t1382108091
+s7564
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o
+t1382108090
+s10588
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o
+t1382108090
+s17496
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o
+t1382108090
+s7000
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o
+t1382108091
+s9748
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDV.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVConfigParser.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVDebug.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVJSON.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVShared.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVTimer.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVViewController.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/libCordova.a
+t2
+s0
+
+N/var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch.pch
+t1382108089
+s3145964
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2bdbcf388311b841^da01e7388311b841^---0#1#1#--18"Check dependencies36"D12EC42D-978D-4126-A7ED-A8FF87BC75ED-
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800891.494412
+e403800891.715924
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m211"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o Classes/CDVCommandDelegateImpl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerdeaf7e3b8311b841^7c64b73b8311b841^---0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m0000000000000000^3728"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o Classes/CDVCommandDelegateImpl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device -DDEBUG -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o36"0F76456D-857C-4EE0-988A-EE5E103BB671-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800891.242381
+e403800891.493050
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m197"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o Classes/CDVCommandQueue.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler5e2a3e3b8311b841^554f7e3b8311b841^---0#0#1#-19%DVTDocumentLocation2@109"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m0000000000000000^3686"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o Classes/CDVCommandQueue.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device -DDEBUG -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o36"2E4F23CF-2B2C-4635-BDC6-73BC2E186F94-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800891.626992
+e403800891.678830
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVConfigParser.m197"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o Classes/CDVConfigParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler3ca0a03b8311b841^e3c6ad3b8311b841^---0#0#1#-19%DVTDocumentLocation2@109"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVConfigParser.m0000000000000000^3686"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o Classes/CDVConfigParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device -DDEBUG -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVConfigParser.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o36"057E58D8-DD92-44DD-9259-7780C9C779DC-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800889.985843
+e403800890.157225
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m207"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o Classes/CDVInvokedUrlCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler957cfc398311b841^8a58283a8311b841^---0#0#1#-19%DVTDocumentLocation2@114"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m0000000000000000^3716"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o Classes/CDVInvokedUrlCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device -DDEBUG -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o36"A27CC154-8A84-4A5A-BBF5-1E4297C28F50-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800891.680202
+e403800891.724530
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVJSON.m
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVJSON.m181"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o Classes/CDVJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerd541ae3b8311b841^608fb93b8311b841^---0#0#1#-19%DVTDocumentLocation2@101"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVJSON.m0000000000000000^3638"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o Classes/CDVJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device -DDEBUG -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVJSON.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o36"B813FD16-2666-422F-ACE3-45B4F1A903E0-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800890.722077
+e403800891.037347
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m197"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o Classes/CDVLocalStorage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler98f7b83a8311b841^a4a6093b8311b841^---0#0#1#-19%DVTDocumentLocation2@109"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m0000000000000000^3686"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o Classes/CDVLocalStorage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device -DDEBUG -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o36"C01A0DB4-CF46-47FC-83E6-B7CF9DE3995B-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800890.199908
+e403800890.682844
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPlugin.m185"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o Classes/CDVPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler234a333a8311b841^bce9ae3a8311b841^---0#0#1#-19%DVTDocumentLocation2@103"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPlugin.m0000000000000000^3650"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o Classes/CDVPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device -DDEBUG -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPlugin.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o36"4FEA1850-C47B-43AB-8439-89970272F3D3-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800890.166428
+e403800890.238584
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPluginResult.m197"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o Classes/CDVPluginResult.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler49ba2a3a8311b841^8a573d3a8311b841^---0#0#1#-19%DVTDocumentLocation2@109"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPluginResult.m0000000000000000^3686"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o Classes/CDVPluginResult.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device -DDEBUG -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPluginResult.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o36"F7D933D5-B0FB-460C-A86C-58EAEF321D31-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVShared.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800892.022223
+e403800892.082281
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVShared.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVShared.m
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVShared.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVShared.m185"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o Classes/CDVShared.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerd9d0053c8311b841^0a2f153c8311b841^---0#0#1#-19%DVTDocumentLocation2@103"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVShared.m0000000000000000^3650"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o Classes/CDVShared.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device -DDEBUG -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVShared.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o36"4F6075C8-1E37-4F72-9A8B-A2C8FF71FFDD-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVTimer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800891.969227
+e403800892.021813
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVTimer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVTimer.m
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVTimer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVTimer.m183"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o Classes/CDVTimer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler4f3bf83b8311b841^4296053c8311b841^---0#0#1#-19%DVTDocumentLocation2@102"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVTimer.m0000000000000000^3644"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o Classes/CDVTimer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device -DDEBUG -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVTimer.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o36"0498DC01-8224-40BE-9478-84AB29F8BEC8-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800890.360527
+e403800890.720780
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m195"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o Classes/CDVURLProtocol.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerc6695c3a8311b841^679eb83a8311b841^---0#0#1#-19%DVTDocumentLocation2@108"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m0000000000000000^3680"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o Classes/CDVURLProtocol.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device -DDEBUG -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o36"6BB74B07-AC76-4BC7-A8FA-2F66440F059C-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800891.717373
+e403800891.967945
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m199"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o Classes/CDVUserAgentUtil.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler61c3b73b8311b841^7de7f73b8311b841^---0#0#1#-19%DVTDocumentLocation2@110"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m0000000000000000^3692"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o Classes/CDVUserAgentUtil.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device -DDEBUG -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o36"5E22B2CD-F28A-4F1B-9634-6ABAFC645F26-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800890.684387
+e403800891.625644
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVViewController.m
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVViewController.m201"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o Classes/CDVViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerfa62af3a8311b841^1f2ba03b8311b841^---0#0#1#-19%DVTDocumentLocation2@111"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVViewController.m0000000000000000^3698"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o Classes/CDVViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device -DDEBUG -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVViewController.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o36"1994F699-3E21-44E4-B1D2-FEA6CCFCC72D-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800891.725871
+e403800892.017182
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m203"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o Classes/CDVWebViewDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerc3f0b93b8311b841^637c043c8311b841^---0#0#1#-19%DVTDocumentLocation2@112"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m0000000000000000^3704"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o Classes/CDVWebViewDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device -DDEBUG -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o36"F73C1E9F-7120-4812-A326-925ED4AE041F-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800890.291840
+e403800890.359191
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWhitelist.m191"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o Classes/CDVWhitelist.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler63d34a3a8311b841^e0865c3a8311b841^---0#0#1#-19%DVTDocumentLocation2@106"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWhitelist.m0000000000000000^3668"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o Classes/CDVWhitelist.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device -DDEBUG -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWhitelist.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o36"A423F8F2-73C4-49EF-B231-A29951484B37-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800891.196613
+e403800891.241056
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m205"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o Classes/NSArray+Comparisons.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler1f86323b8311b841^74b53d3b8311b841^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m0000000000000000^3710"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o Classes/NSArray+Comparisons.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device -DDEBUG -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o36"63976C70-744E-47C0-A18B-9520E8D65979-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800890.158545
+e403800890.198604
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSData+Base64.m193"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o Classes/NSData+Base64.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerf2b4283a8311b841^001c333a8311b841^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSData+Base64.m0000000000000000^3674"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o Classes/NSData+Base64.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device -DDEBUG -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSData+Base64.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o36"87296401-ED4B-44A3-A71A-A96CADF0D23A-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800889.985172
+e403800890.165145
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m213"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o Classes/NSDictionary+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler9755fc398311b841^ef752a3a8311b841^---0#0#1#-19%DVTDocumentLocation2@117"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m0000000000000000^3734"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o Classes/NSDictionary+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device -DDEBUG -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o36"7182E35D-2C47-4014-8E60-176276D205C6-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800890.239942
+e403800890.290475
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m225"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o Classes/NSMutableArray+QueueAdditions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerf7933d3a8311b841^f65c4a3a8311b841^---0#0#1#-19%DVTDocumentLocation2@123"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m0000000000000000^3770"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o Classes/NSMutableArray+QueueAdditions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device -DDEBUG -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o36"EAD0BDD3-C975-49AF-8B32-73781C30BA57-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800891.038865
+e403800891.195220
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m205"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o Classes/UIDevice+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler88110a3b8311b841^2c0f323b8311b841^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m0000000000000000^3710"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o Classes/UIDevice+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device -DDEBUG -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o36"3167BBB7-37BB-43E3-B4E3-7FB05C3A22E3-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/CDV.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDV.h
+s403800888.938417
+e403800888.940931
+r1
+xCpHeader
+xClasses/CDV.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDV.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDV.h114"CpHeader Classes/CDV.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDV.h4d4bf0388311b841^e294f1388311b841^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDV.h0038ecb0ddffdf42^740"CpHeader Classes/CDV.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDV.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDV.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"75871606-473B-46B1-8EE3-A1E47259DD21-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/CDVAvailability.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+s403800888.940501
+e403800888.942781
+r1
+xCpHeader
+xClasses/CDVAvailability.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVAvailability.h138"CpHeader Classes/CDVAvailability.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVAvailability.h45d4f0388311b841^6efcf1388311b841^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVAvailability.h0038ecb0ddffdf42^776"CpHeader Classes/CDVAvailability.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVAvailability.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVAvailability.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"E2A83F78-FAEC-4F19-B75D-118B76B0E26E-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/CDVCommandDelegate.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+s403800888.936385
+e403800888.938810
+r1
+xCpHeader
+xClasses/CDVCommandDelegate.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h144"CpHeader Classes/CDVCommandDelegate.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h50c7ef388311b841^2f69f0388311b841^---0#0#1#-19%DVTDocumentLocation2@122"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h0038ecb0ddffdf42^785"CpHeader Classes/CDVCommandDelegate.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"BBF44080-F9E4-4482-9E65-B1ADACF5C83F-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/CDVCommandDelegateImpl.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+s403800888.950985
+e403800888.953855
+r1
+xCpHeader
+xClasses/CDVCommandDelegateImpl.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h152"CpHeader Classes/CDVCommandDelegateImpl.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h4085f3388311b841^d84af4388311b841^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h0038ecb0ddffdf42^797"CpHeader Classes/CDVCommandDelegateImpl.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"D48E7333-857B-4295-A784-63DCFACCB121-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/CDVCommandQueue.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+s403800888.949063
+e403800888.951715
+r1
+xCpHeader
+xClasses/CDVCommandQueue.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h138"CpHeader Classes/CDVCommandQueue.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h0707f3388311b841^26e0f3388311b841^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h0038ecb0ddffdf42^776"CpHeader Classes/CDVCommandQueue.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"53DC1D90-CE6B-4BC8-BA96-1C2165904968-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/CDVConfigParser.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVConfigParser.h
+s403800888.957191
+e403800888.961710
+r1
+xCpHeader
+xClasses/CDVConfigParser.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVConfigParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVConfigParser.h138"CpHeader Classes/CDVConfigParser.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVConfigParser.h081cf5388311b841^7ac6f6388311b841^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVConfigParser.h0038ecb0ddffdf42^776"CpHeader Classes/CDVConfigParser.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVConfigParser.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVConfigParser.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"110A94D0-26F2-49B3-AB07-D767409CA3F4-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/CDVDebug.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVDebug.h
+s403800888.925951
+e403800888.928519
+r1
+xCpHeader
+xClasses/CDVDebug.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVDebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVDebug.h124"CpHeader Classes/CDVDebug.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVDebug.heb1aed388311b841^12f6ed388311b841^---0#0#1#-19%DVTDocumentLocation2@112"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVDebug.h0038ecb0ddffdf42^755"CpHeader Classes/CDVDebug.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVDebug.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVDebug.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"A895F609-118C-4B17-B492-BFAFC19D60AB-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/CDVInvokedUrlCommand.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+s403800888.911852
+e403800888.918904
+r1
+xCpHeader
+xClasses/CDVInvokedUrlCommand.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h148"CpHeader Classes/CDVInvokedUrlCommand.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.he692ea388311b841^1459eb388311b841^---0#0#1#-19%DVTDocumentLocation2@124"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h00fc95181ffddf42^791"CpHeader Classes/CDVInvokedUrlCommand.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"375B9637-B8E0-4400-A512-0A5131AD6616-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/CDVJSON.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVJSON.h
+s403800888.960355
+e403800888.962502
+r1
+xCpHeader
+xClasses/CDVJSON.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVJSON.h122"CpHeader Classes/CDVJSON.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVJSON.heeeaf5388311b841^fad3f6388311b841^---0#0#1#-19%DVTDocumentLocation2@111"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVJSON.h0038ecb0ddffdf42^752"CpHeader Classes/CDVJSON.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVJSON.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVJSON.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"B6EC3877-B2AD-4A8C-B8C4-7436D1F9AB6A-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/CDVLocalStorage.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+s403800888.942389
+e403800888.944617
+r1
+xCpHeader
+xClasses/CDVLocalStorage.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h138"CpHeader Classes/CDVLocalStorage.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVLocalStorage.hc24ef1388311b841^520af2388311b841^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h0038ecb0ddffdf42^776"CpHeader Classes/CDVLocalStorage.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"28FA71B1-A781-4679-8644-BEDC4DCD42AB-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/CDVPlugin.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+s403800888.924010
+e403800888.926416
+r1
+xCpHeader
+xClasses/CDVPlugin.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVPlugin.h126"CpHeader Classes/CDVPlugin.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVPlugin.hf5a0ec388311b841^5648ed388311b841^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVPlugin.h0038ecb0ddffdf42^758"CpHeader Classes/CDVPlugin.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVPlugin.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPlugin.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"4EB84DD0-81F6-4F93-8AB2-02819BF98162-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/CDVPluginResult.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+s403800888.922095
+e403800888.924526
+r1
+xCpHeader
+xClasses/CDVPluginResult.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVPluginResult.h138"CpHeader Classes/CDVPluginResult.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVPluginResult.h151eec388311b841^36c8ec388311b841^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVPluginResult.h0038ecb0ddffdf42^776"CpHeader Classes/CDVPluginResult.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVPluginResult.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVPluginResult.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"DE851729-A0BF-4384-A83C-17C4F2887C5A-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/CDVScreenOrientationDelegate.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+s403800888.955295
+e403800888.957655
+r1
+xCpHeader
+xClasses/CDVScreenOrientationDelegate.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h164"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h0e9ff4388311b841^a2b2f5388311b841^---0#0#1#-19%DVTDocumentLocation2@132"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h0038ecb0ddffdf42^815"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"1D770AC1-C8CE-46AF-A81C-31AEF9D4CCC3-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/CDVShared.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVShared.h
+s403800888.953403
+e403800888.955772
+r1
+xCpHeader
+xClasses/CDVShared.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVShared.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVShared.h126"CpHeader Classes/CDVShared.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVShared.h5f24f4388311b841^4fcaf4388311b841^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVShared.h0038ecb0ddffdf42^758"CpHeader Classes/CDVShared.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVShared.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVShared.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"EA6D5D80-3446-41E7-BC92-637FD428FFCF-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/CDVTimer.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVTimer.h
+s403800888.968858
+e403800888.971103
+r1
+xCpHeader
+xClasses/CDVTimer.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVTimer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVTimer.h124"CpHeader Classes/CDVTimer.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVTimer.h6c25f8388311b841^76e0f8388311b841^---0#0#1#-19%DVTDocumentLocation2@112"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVTimer.h0038ecb0ddffdf42^755"CpHeader Classes/CDVTimer.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVTimer.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVTimer.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"388BE305-3FC5-446D-9C79-17D473AC9304-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/CDVURLProtocol.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+s403800888.932511
+e403800888.934806
+r1
+xCpHeader
+xClasses/CDVURLProtocol.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h136"CpHeader Classes/CDVURLProtocol.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVURLProtocol.hcdcaee388311b841^e962ef388311b841^---0#0#1#-19%DVTDocumentLocation2@118"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h0038ecb0ddffdf42^773"CpHeader Classes/CDVURLProtocol.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"C06E1108-D0EA-4562-8BDD-7C748A87A85E-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/CDVUserAgentUtil.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
+s403800888.963463
+e403800888.969491
+r1
+xCpHeader
+xClasses/CDVUserAgentUtil.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h140"CpHeader Classes/CDVUserAgentUtil.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h70b5f6388311b841^a646f8388311b841^---0#0#1#-19%DVTDocumentLocation2@120"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h0038ecb0ddffdf42^779"CpHeader Classes/CDVUserAgentUtil.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"6FDCEA87-436F-4269-80BE-4396765016CC-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/CDVViewController.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVViewController.h
+s403800888.934427
+e403800888.936812
+r1
+xCpHeader
+xClasses/CDVViewController.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVViewController.h142"CpHeader Classes/CDVViewController.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVViewController.h2446ef388311b841^fb5df0388311b841^---0#0#1#-19%DVTDocumentLocation2@121"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVViewController.h0038ecb0ddffdf42^782"CpHeader Classes/CDVViewController.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVViewController.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVViewController.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"32182B9F-0542-43D4-BB64-E43D601C6506-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/CDVWebViewDelegate.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
+s403800888.962973
+e403800888.967390
+r1
+xCpHeader
+xClasses/CDVWebViewDelegate.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h144"CpHeader Classes/CDVWebViewDelegate.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h6c97f6388311b841^f2b1f7388311b841^---0#0#1#-19%DVTDocumentLocation2@122"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h0038ecb0ddffdf42^785"CpHeader Classes/CDVWebViewDelegate.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"440BE3C8-131A-4B02-9273-105E338EA301-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/CDVWhitelist.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+s403800888.930641
+e403800888.932957
+r1
+xCpHeader
+xClasses/CDVWhitelist.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVWhitelist.h132"CpHeader Classes/CDVWhitelist.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVWhitelist.h7b4eee388311b841^6d39ef388311b841^---0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVWhitelist.h0038ecb0ddffdf42^767"CpHeader Classes/CDVWhitelist.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/CDVWhitelist.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/CDVWhitelist.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"7D962C26-A7D0-4ACF-A63F-C829DF6F013A-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/NSArray+Comparisons.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+s403800888.946848
+e403800888.949512
+r1
+xCpHeader
+xClasses/NSArray+Comparisons.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h146"CpHeader Classes/NSArray+Comparisons.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h1974f2388311b841^a6d2f3388311b841^---0#0#1#-19%DVTDocumentLocation2@123"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h0038ecb0ddffdf42^788"CpHeader Classes/NSArray+Comparisons.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"3CFF1295-396A-477A-99F5-A40D01A560B7-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/NSData+Base64.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+s403800888.920124
+e403800888.922508
+r1
+xCpHeader
+xClasses/NSData+Base64.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSData+Base64.h134"CpHeader Classes/NSData+Base64.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSData+Base64.hfd9feb388311b841^1fbeec388311b841^---0#0#1#-19%DVTDocumentLocation2@117"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSData+Base64.h0038ecb0ddffdf42^770"CpHeader Classes/NSData+Base64.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSData+Base64.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSData+Base64.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"C18F1B04-902E-489B-A087-81198D0F088E-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/NSDictionary+Extensions.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+s403800888.911822
+e403800888.920952
+r1
+xCpHeader
+xClasses/NSDictionary+Extensions.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h154"CpHeader Classes/NSDictionary+Extensions.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h12a4ea388311b841^63d2eb388311b841^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h0038ecb0ddffdf42^800"CpHeader Classes/NSDictionary+Extensions.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"57EF39CF-6D6F-4761-8AEC-8678EF40A436-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+s403800888.928065
+e403800888.931092
+r1
+xCpHeader
+xClasses/NSMutableArray+QueueAdditions.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h166"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h87a5ed388311b841^2d7bee388311b841^---0#0#1#-19%DVTDocumentLocation2@133"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h0038ecb0ddffdf42^818"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"DD5A94F7-871B-41D1-89D3-778B439E3F13-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CCpHeader Classes/UIDevice+Extensions.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+s403800888.944207
+e403800888.947538
+r1
+xCpHeader
+xClasses/UIDevice+Extensions.h
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Copy /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h146"CpHeader Classes/UIDevice+Extensions.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h04c7f1388311b841^f19ef3388311b841^---0#0#1#-19%DVTDocumentLocation2@123"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h0038ecb0ddffdf42^788"CpHeader Classes/UIDevice+Extensions.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include/Cordova36"E267795D-A443-4702-B331-22BE7E9B1458-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CLibtool /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/libCordova.a normal armv7
+s403800892.091994
+e403800892.130636
+r1
+xLibtool
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/libCordova.a
+xnormal
+xarmv7
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Libtool /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/libCordova.a normal armv7103"Libtool /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/libCordova.a normal armv7dba3173c8311b841^2785213c8311b841^---0#0#1#--1062"Libtool /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/libCordova.a normal armv7    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device -filelist /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/Cordova.LinkFileList -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/libCordova.a36"4367B519-8862-4C26-AB80-5C78A6371792-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+
+CProcessPCH /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800888.980045
+e403800889.976620
+r1
+xProcessPCH
+x/var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch.pch
+xCordovaLib_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Precompile CordovaLib_Prefix.pch290"ProcessPCH /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler5708fb388311b841^eb1dfa398311b841^---0#0#1#-19%DVTDocumentLocation2@105"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/CordovaLib_Prefix.pch0000000000000000^3665"ProcessPCH /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/device -DDEBUG --serialize-diagnostics /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch.d -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/CordovaLib/CordovaLib_Prefix.pch -o /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-cqofnftjewdylhczddiwnulkjadv/CordovaLib_Prefix.pch.pch36"BB21DB9E-48D5-400A-8CEA-C2108F63240A-
+b240AA85E-ACC7-41E6-8042-E0E12570F0B8
+

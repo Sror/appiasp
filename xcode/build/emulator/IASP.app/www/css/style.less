@@ -1,0 +1,355 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+ @font-face {
+	font-family: 'Social-Media-Icons';
+	src:url('../fonts/Social-Media-Icons.eot');
+	src:url('../fonts/Social-Media-Icons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Social-Media-Icons.woff') format('woff'),
+		url('../fonts/Social-Media-Icons.ttf') format('truetype'),
+		url('../fonts/Social-Media-Icons.svg#Social-Media-Icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'Social-Media-Icons';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-facebook, .icon-twitter, .icon-instagram, .icon-google-plus, .icon-flickr, .icon-pinterest, .icon-youtube {
+	font-family: 'Social-Media-Icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-facebook:before {
+	content: "\21";
+}
+.icon-twitter:before {
+	content: "\22";
+}
+.icon-instagram:before {
+	content: "\23";
+}
+.icon-google-plus:before {
+	content: "\24";
+}
+.icon-flickr:before {
+	content: "\25";
+}
+.icon-pinterest:before {
+	content: "\26";
+}
+.icon-youtube:before {
+	content: "\f167";
+}
+
+
+
+ * {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body, html{
+	height: 100%;
+}
+body{
+	-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+	font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Roboto, Arial, sans-serif;
+    font-size:12px;
+    margin:0px;
+    padding:0px;
+    background: #244a80;
+}
+
+#splash{
+	padding-top: 70px;
+
+	h1{
+		width: 228px;
+		height: 131px;
+		display: block;
+		text-indent: -9000px;
+		background-repeat: no-repeat;
+		background-image: url(../img/logo.svg);
+		background-size: 228px 131px;
+		margin: auto;
+	}
+	
+	.menu{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+
+		a:link, a:visited{
+			display: block;
+			font-size: 25px;
+			color: #fff;
+			padding: 10px 20px;
+			text-decoration: none;
+			text-align: center; 
+			border-top: 1px solid rgba(255, 255, 255, 0.5);
+		}
+		a:hover, a:active, a:focus{
+			background: rgba(255, 255, 255, 0.2);
+		}
+
+		.socialmedia{
+			text-align: center;
+			a:link, a:visited{
+				display: inline-block;
+				width: 25px;
+				height: 25px;
+				padding: 10px;
+				border-top: none;
+			}
+		}
+	}
+}
+
+.view{
+	display: none;
+	
+	.header{
+		background: #355378 url(../img/bg-header.png);
+		background-size: cover;
+		width: 100%;
+		height: 62px;
+		text-align: center;
+		padding-top: 10px;
+
+		.item-menu{
+			display: inline-block;
+			overflow: hidden;
+			text-indent: -9000px;
+			width: 145px;
+			height: 56px;
+			background: url(../img/logo-header.svg);
+			background-size: 145px 56px;
+		}
+
+		.back-btn{
+			display: inline-block;
+			overflow: hidden;
+			text-indent: -9000px;
+			width: 13px;
+			height: 21px;
+			background:  url(../img/back-btn.svg) center center no-repeat;
+			background-size: 13px 21px;
+			position: absolute;
+			left: 0;
+			top: 0;
+			display: none;
+			padding: 25px 16px;
+		}
+
+	}
+
+	.content{
+		background: #f5f6f6;
+		overflow: auto;
+	}
+
+}
+
+
+#magazine{
+	.magazine-list{
+		padding: 0;
+		margin: 0;
+		li{
+			border-bottom: 1px solid #dadbdb;
+			list-style: none;
+
+			a{
+				display: block;
+				padding: 20px;
+				color: #4f4f4f;
+				text-decoration: none;
+
+				img{
+					width: 100px;
+					height: 141px;
+					float: left;
+					margin-right: 20px;
+				}
+				
+				.title{
+					font-size: 25px;
+					font-weight: bold;
+					margin: 15px 0;
+				}
+				.desc{
+					font-size: 14px;
+					margin: 15px 0;
+				}
+			}
+		}
+	}
+
+	.magazine-view{
+		display: none;
+		.iframe{
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+
+
+#news{
+	.news-list{
+		padding: 0;
+		margin: 0;
+		li{
+			padding: 12px 0;
+			a{
+				padding: 15px 0;
+				display: block;
+				border-top: 1px solid #dadbdb;
+				border-bottom: 1px solid #dadbdb;
+				text-decoration: none;
+				background: #fff;
+			}
+		}
+	}
+
+	.date{
+		display: block;
+		padding: 0 15px;
+		color: #a7a7a7;
+		font-size: 14px;
+		margin: 15px 0;
+	}
+	.title{
+		display: block;
+		padding: 0 15px;
+		font-size: 20px;
+		color: #2d2d2d;
+		margin: 10px 0;
+	}
+	p{
+		display: block;
+		padding: 0 15px;
+		font-size: 15px;
+		color: #5d5d5d;
+		margin: 15px 0;
+	}
+	.image {
+		padding:0;
+	}
+	img{
+		width: 100%;
+		height: auto;
+	}
+	.news-detail{
+		display: none;
+	}
+}
+
+
+
+#contact {
+	.send-btn{
+		display: inline-block;
+		color: #ff7111;
+		position: absolute;
+		right: 0;
+		top: 0;
+		padding: 20px 16px;
+		font-size: 19px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.label{
+		padding: 15px;
+		span{
+			color: #0d639a;
+			font-size: 13px;
+			font-weight: bold;
+			display: block;
+		}
+		.input{
+			width: 99%;
+			background: transparent;
+			padding: 10px 0;
+			color: #828282;
+			line-height: 1;
+			font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Roboto, Arial, sans-serif;
+			font-size: 18px;
+			font-style: italic;
+			border: none;
+		}
+	}
+}
+
+
+
+
+
+/* iPhone 5 in portrait */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+    body.ios{
+        background: url(../img/ios/bg320x568.png) no-repeat;
+        background-size: 320px 568px;
+    }
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1200px) and (orientation : portrait) {
+
+	body.android{
+		background: url(../img/android/bg-4.jpg) no-repeat;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

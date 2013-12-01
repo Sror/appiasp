@@ -1,0 +1,671 @@
+TIASP
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/Info.plist /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/IASP-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Script-304B58A110DAC018002A0835.sh
+cCpResource IASP/config.xml build/emulator/IASP.app/config.xml
+cCpResource IASP/Resources/icons/icon-72.png build/emulator/IASP.app/icon-72.png
+cCpResource IASP/Resources/icons/icon.png build/emulator/IASP.app/icon.png
+cCpResource IASP/Resources/icons/icon@2x.png build/emulator/IASP.app/icon@2x.png
+cCopyStringsFile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/en.lproj/Localizable.strings IASP/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/es.lproj/Localizable.strings IASP/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/MainViewController.xib
+cCopyStringsFile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/de.lproj/Localizable.strings IASP/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/se.lproj/Localizable.strings IASP/Resources/se.lproj/Localizable.strings
+cCpResource IASP/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/IASP.app/Default-Landscape@2x~ipad.png
+cCpResource IASP/Resources/splash/Default-Landscape~ipad.png build/emulator/IASP.app/Default-Landscape~ipad.png
+cCpResource IASP/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/IASP.app/Default-Portrait@2x~ipad.png
+cCpResource IASP/Resources/splash/Default-Portrait~ipad.png build/emulator/IASP.app/Default-Portrait~ipad.png
+cCpResource IASP/Resources/splash/Default@2x~iphone.png build/emulator/IASP.app/Default@2x~iphone.png
+cCpResource IASP/Resources/splash/Default~iphone.png build/emulator/IASP.app/Default~iphone.png
+cCpResource IASP/Resources/splash/Default-568h@2x~iphone.png build/emulator/IASP.app/Default-568h@2x~iphone.png
+cCpResource IASP/Resources/icons/icon-72@2x.png build/emulator/IASP.app/icon-72@2x.png
+cProcessPCH /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/IASP-Prefix-camllvvuefnbglflrsccrjgcptvc/IASP-Prefix.pch.pch IASP/IASP-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/main.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/AppDelegate.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/MainViewController.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/IASP normal i386
+cGenerateDSYMFile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app.dSYM /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/IASP
+cTouch /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c00000000521BCCE50000000000000176
+t1377553637
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c000000005254018C00000000000003B5
+t1381237132
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052540198000000000000019E
+t1381237144
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000525401990000000000057080
+t1381237145
+s356480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005254019C0000000000445830
+t1381237148
+s4479024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000005254019C00000000000EC820
+t1381237148
+s968736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000525401A000000000001BA500
+t1381237152
+s1811712
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/AppDelegate.m
+c0000000052614BAF000000000000139F
+t1382108079
+s5023
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/MainViewController.m
+c0000000052614BAF0000000000001265
+t1382108079
+s4709
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/MainViewController.xib
+c0000000052614BAF0000000000001759
+t1382108079
+s5977
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/IASP-Info.plist
+c0000000052614BB3000000000000073A
+t1382108083
+s1850
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/IASP-Prefix.pch
+c0000000052614BAF00000000000003B9
+t1382108079
+s953
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/de.lproj/Localizable.strings
+c0000000052614BAF00000000000004BF
+t1382108079
+s1215
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/en.lproj/Localizable.strings
+c0000000052614BAF00000000000004AA
+t1382108079
+s1194
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/es.lproj/Localizable.strings
+c0000000052614BAF00000000000004B7
+t1382108079
+s1207
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/icons/icon-72.png
+c0000000052614BAF0000000000001350
+t1382108079
+s4944
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/icons/icon-72@2x.png
+c0000000052614BAF0000000000002DBA
+t1382108079
+s11706
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/icons/icon.png
+c0000000052614BAF0000000000000F3E
+t1382108079
+s3902
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/icons/icon@2x.png
+c0000000052614BAF0000000000001EBD
+t1382108079
+s7869
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/se.lproj/Localizable.strings
+c0000000052614BAF00000000000004AB
+t1382108079
+s1195
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/splash/Default-568h@2x~iphone.png
+c0000000052614BAF00000000000085B1
+t1382108079
+s34225
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000052614BAF0000000000012DF4
+t1382108079
+s77300
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/splash/Default-Landscape~ipad.png
+c0000000052614BAF0000000000008877
+t1382108079
+s34935
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000052614BAF0000000000012B02
+t1382108079
+s76546
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/splash/Default-Portrait~ipad.png
+c0000000052614BAF00000000000085E6
+t1382108079
+s34278
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/splash/Default@2x~iphone.png
+c0000000052614BAF0000000000007323
+t1382108079
+s29475
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/splash/Default~iphone.png
+c0000000052614BAF000000000000289A
+t1382108079
+s10394
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/config.xml
+c0000000052614BB3000000000000095B
+t1382108083
+s2395
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/main.m
+c0000000052614BAF0000000000000456
+t1382108079
+s1110
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/AppDelegate.o
+t1382108108
+s77584
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/IASP.LinkFileList
+c0000000052614BC000000000000001A7
+t1382108096
+s423
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/MainViewController.o
+t1382108108
+s53544
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/main.o
+t1382108108
+s3092
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Script-304B58A110DAC018002A0835.sh
+c0000000052614BC0000000000000002D
+t1382108096
+s45
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app
+t1382108109
+s748
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app.dSYM
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/Default-568h@2x~iphone.png
+t1382108096
+s34225
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/Default-Landscape@2x~ipad.png
+t1382108096
+s77300
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/Default-Landscape~ipad.png
+t1382108096
+s34935
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/Default-Portrait@2x~ipad.png
+t1382108096
+s76546
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/Default-Portrait~ipad.png
+t1382108096
+s34278
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/Default@2x~iphone.png
+t1382108096
+s29475
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/Default~iphone.png
+t1382108096
+s10394
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/IASP
+t1382108109
+s299516
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/Info.plist
+t1382108096
+s1053
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/MainViewController.nib
+t1382108108
+s1332
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/PkgInfo
+t2
+s0
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/config.xml
+t1382108096
+s2395
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/de.lproj/Localizable.strings
+t1382108096
+s280
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/en.lproj/Localizable.strings
+t1382108096
+s166
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/es.lproj/Localizable.strings
+t1382108096
+s334
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/icon-72.png
+t1382108096
+s4944
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/icon-72@2x.png
+t1382108096
+s11706
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/icon.png
+t1382108096
+s3902
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/icon@2x.png
+t1382108096
+s7869
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/se.lproj/Localizable.strings
+t1382108096
+s283
+
+N/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/libCordova.a
+c0000000052614BC000000000000DE2A8
+t1382108096
+s909992
+
+N/var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/IASP-Prefix-camllvvuefnbglflrsccrjgcptvc/IASP-Prefix.pch.pch
+t1382108108
+s5343384
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd3bf38408311b841^bf283d408311b841^---0#1#1#--18"Check dependencies36"333F110C-00DD-4AB8-9456-4667A6583D23-
+
+CCompileC build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/AppDelegate.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800908.630018
+e403800908.757676
+r1
+xCompileC
+xbuild/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/AppDelegate.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/AppDelegate.m
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/AppDelegate.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/MainViewController.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/AppDelegate.m187"CompileC build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/AppDelegate.o IASP/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler7061a14c8311b841^a8fec14c8311b841^---0#0#1#-19%DVTDocumentLocation2@99"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/AppDelegate.m0000000000000000^3752"CompileC build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/AppDelegate.o IASP/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/IASP-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/IASP-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/IASP-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/IASP-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/usr/local/lib/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/UninstalledProducts/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/DerivedSources/i386 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/IASP-Prefix-camllvvuefnbglflrsccrjgcptvc/IASP-Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/AppDelegate.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/AppDelegate.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/AppDelegate.o36"4E631B2E-8C26-4C50-B424-CC917FDAD8F2-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CCompileC build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/MainViewController.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800908.671447
+e403800908.757669
+r1
+xCompileC
+xbuild/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/MainViewController.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/MainViewController.m
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/MainViewController.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/MainViewController.m201"CompileC build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/MainViewController.o IASP/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler4703ac4c8311b841^f0f9c14c8311b841^---0#0#1#-19%DVTDocumentLocation2@106"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/MainViewController.m0000000000000000^3794"CompileC build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/MainViewController.o IASP/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/IASP-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/IASP-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/IASP-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/IASP-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/usr/local/lib/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/UninstalledProducts/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/DerivedSources/i386 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/IASP-Prefix-camllvvuefnbglflrsccrjgcptvc/IASP-Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/MainViewController.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/MainViewController.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/MainViewController.o36"1D2FEA5E-BBAE-41F0-921E-F2D014461EEC-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CCompileC build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/main.o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800908.629422
+e403800908.670115
+r1
+xCompileC
+xbuild/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/main.o
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/main.m165"CompileC build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/main.o IASP/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf23fa14c8311b841^05a2ab4c8311b841^---0#0#1#-19%DVTDocumentLocation2@84"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/main.m0000000000000000^3694"CompileC build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/main.o IASP/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/IASP-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/IASP-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/IASP-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/IASP-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/usr/local/lib/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/UninstalledProducts/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/DerivedSources/i386 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator -include /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/IASP-Prefix-camllvvuefnbglflrsccrjgcptvc/IASP-Prefix.pch -MMD -MT dependencies -MF /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/main.dia -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/main.m -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/main.o36"18DF8F6F-513B-4D58-BA11-541557D77874-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CCompileXIB /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/MainViewController.xib
+s403800896.740255
+e403800908.143226
+r1
+xCompileXIB
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/MainViewController.xib
+o2013-10-18 11:55:07.023 Interface Builder Cocoa Touch Tool[1079:303] CFPreferences: user home directory at file:///Users/Synergic_01/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compiling /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/MainViewController.xib46"CompileXIB IASP/Classes/MainViewController.xibf793bd408311b841^fcaa244c8311b841^-235"2013-10-18 11:55:07.023 Interface Builder Cocoa Touch Tool[1079:303] CFPreferences: user home directory at file:///Users/Synergic_01/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@108"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/MainViewController.xib0000000000000000^890"CompileXIB IASP/Classes/MainViewController.xib    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/MainViewController.nib /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Classes/MainViewController.xib36"7759DD4B-BC7A-4FDE-89D9-7C2A8EBD6F04-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CCopyStringsFile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/de.lproj/Localizable.strings IASP/Resources/de.lproj/Localizable.strings
+s403800896.740666
+e403800896.747301
+r1
+xCopyStringsFile
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/de.lproj/Localizable.strings
+xIASP/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy IASP/Resources/de.lproj/Localizable.strings112"CopyStringsFile build/emulator/IASP.app/de.lproj/Localizable.strings IASP/Resources/de.lproj/Localizable.strings6dabbd408311b841^6c77bf408311b841^---0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/de.lproj/Localizable.strings0000000000000000^681"CopyStringsFile build/emulator/IASP.app/de.lproj/Localizable.strings IASP/Resources/de.lproj/Localizable.strings    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/de.lproj -- IASP/Resources/de.lproj/Localizable.strings36"AF4380B5-E53C-4811-A9FB-C4B80A5D02C5-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CCopyStringsFile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/en.lproj/Localizable.strings IASP/Resources/en.lproj/Localizable.strings
+s403800896.734862
+e403800896.739025
+r1
+xCopyStringsFile
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/en.lproj/Localizable.strings
+xIASP/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy IASP/Resources/en.lproj/Localizable.strings112"CopyStringsFile build/emulator/IASP.app/en.lproj/Localizable.strings IASP/Resources/en.lproj/Localizable.stringsfc36bc408311b841^933abd408311b841^---0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/en.lproj/Localizable.strings0000000000000000^681"CopyStringsFile build/emulator/IASP.app/en.lproj/Localizable.strings IASP/Resources/en.lproj/Localizable.strings    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/en.lproj -- IASP/Resources/en.lproj/Localizable.strings36"55324A08-EE0A-4F30-A3F5-CD585DBF6706-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CCopyStringsFile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/es.lproj/Localizable.strings IASP/Resources/es.lproj/Localizable.strings
+s403800896.735347
+e403800896.739047
+r1
+xCopyStringsFile
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/es.lproj/Localizable.strings
+xIASP/Resources/es.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy IASP/Resources/es.lproj/Localizable.strings112"CopyStringsFile build/emulator/IASP.app/es.lproj/Localizable.strings IASP/Resources/es.lproj/Localizable.strings4c4fbc408311b841^183fbd408311b841^---0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/es.lproj/Localizable.strings0000000000000000^681"CopyStringsFile build/emulator/IASP.app/es.lproj/Localizable.strings IASP/Resources/es.lproj/Localizable.strings    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/es.lproj -- IASP/Resources/es.lproj/Localizable.strings36"276B7B7B-0306-4F9D-9B81-784DF1E6870C-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CCopyStringsFile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/se.lproj/Localizable.strings IASP/Resources/se.lproj/Localizable.strings
+s403800896.748509
+e403800896.767741
+r1
+xCopyStringsFile
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/se.lproj/Localizable.strings
+xIASP/Resources/se.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy IASP/Resources/se.lproj/Localizable.strings112"CopyStringsFile build/emulator/IASP.app/se.lproj/Localizable.strings IASP/Resources/se.lproj/Localizable.strings20b3bf408311b841^b98bc4408311b841^---0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/se.lproj/Localizable.strings0000000000000000^681"CopyStringsFile build/emulator/IASP.app/se.lproj/Localizable.strings IASP/Resources/se.lproj/Localizable.strings    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/se.lproj -- IASP/Resources/se.lproj/Localizable.strings36"FBF78632-4AE7-4804-98CF-8DEF2F2E664E-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CCpResource IASP/Resources/icons/icon-72.png build/emulator/IASP.app/icon-72.png
+s403800896.727085
+e403800896.730484
+r1
+xCpResource
+xIASP/Resources/icons/icon-72.png
+xbuild/emulator/IASP.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/emulator/IASP.app/icon-72.png79"CpResource IASP/Resources/icons/icon-72.png build/emulator/IASP.app/icon-72.pnga531ba408311b841^4209bb408311b841^---0#0#1#-19%DVTDocumentLocation2@108"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/icon-72.png0038ecb0ddffdf42^704"CpResource IASP/Resources/icons/icon-72.png build/emulator/IASP.app/icon-72.png    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/icons/icon-72.png /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app36"4C4DA54A-BBFE-4D2D-9B8E-37A481CC36CF-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CCpResource IASP/Resources/icons/icon-72@2x.png build/emulator/IASP.app/icon-72@2x.png
+s403800896.811101
+e403800896.825802
+r1
+xCpResource
+xIASP/Resources/icons/icon-72@2x.png
+xbuild/emulator/IASP.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/IASP.app/icon-72@2x.png85"CpResource IASP/Resources/icons/icon-72@2x.png build/emulator/IASP.app/icon-72@2x.png8cb9cf408311b841^817ad3408311b841^---0#0#1#-19%DVTDocumentLocation2@111"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/icon-72@2x.png0038ecb0ddffdf42^713"CpResource IASP/Resources/icons/icon-72@2x.png build/emulator/IASP.app/icon-72@2x.png    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/icons/icon-72@2x.png /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app36"BFD8E03C-AAC3-427A-801D-9C10BEB218DD-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CCpResource IASP/Resources/icons/icon.png build/emulator/IASP.app/icon.png
+s403800896.731003
+e403800896.733640
+r1
+xCpResource
+xIASP/Resources/icons/icon.png
+xbuild/emulator/IASP.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy build/emulator/IASP.app/icon.png73"CpResource IASP/Resources/icons/icon.png build/emulator/IASP.app/icon.png2233bb408311b841^f2d0bb408311b841^---0#0#1#-19%DVTDocumentLocation2@105"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/icon.png0038ecb0ddffdf42^695"CpResource IASP/Resources/icons/icon.png build/emulator/IASP.app/icon.png    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/icons/icon.png /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app36"A4032DB8-404F-49FF-94FD-450619F5305D-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CCpResource IASP/Resources/icons/icon@2x.png build/emulator/IASP.app/icon@2x.png
+s403800896.731439
+e403800896.734324
+r1
+xCpResource
+xIASP/Resources/icons/icon@2x.png
+xbuild/emulator/IASP.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/emulator/IASP.app/icon@2x.png79"CpResource IASP/Resources/icons/icon@2x.png build/emulator/IASP.app/icon@2x.png234ebb408311b841^fcfcbb408311b841^---0#0#1#-19%DVTDocumentLocation2@108"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/icon@2x.png0038ecb0ddffdf42^704"CpResource IASP/Resources/icons/icon@2x.png build/emulator/IASP.app/icon@2x.png    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/icons/icon@2x.png /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app36"32F55A24-A711-4146-961A-06CA341D252C-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CCpResource IASP/Resources/splash/Default-568h@2x~iphone.png build/emulator/IASP.app/Default-568h@2x~iphone.png
+s403800896.806220
+e403800896.809675
+r1
+xCpResource
+xIASP/Resources/splash/Default-568h@2x~iphone.png
+xbuild/emulator/IASP.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/emulator/IASP.app/Default-568h@2x~iphone.png110"CpResource IASP/Resources/splash/Default-568h@2x~iphone.png build/emulator/IASP.app/Default-568h@2x~iphone.png8e74ce408311b841^6153cf408311b841^---0#0#1#-19%DVTDocumentLocation2@123"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/Default-568h@2x~iphone.png0038ecb0ddffdf42^751"CpResource IASP/Resources/splash/Default-568h@2x~iphone.png build/emulator/IASP.app/Default-568h@2x~iphone.png    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/splash/Default-568h@2x~iphone.png /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app36"6193AC53-CD91-4475-BFE0-37396EE00CB7-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CCpResource IASP/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/IASP.app/Default-Landscape@2x~ipad.png
+s403800896.769008
+e403800896.771799
+r1
+xCpResource
+xIASP/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/emulator/IASP.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/emulator/IASP.app/Default-Landscape@2x~ipad.png116"CpResource IASP/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/IASP.app/Default-Landscape@2x~ipad.png9df2c4408311b841^3faac5408311b841^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/Default-Landscape@2x~ipad.png0038ecb0ddffdf42^760"CpResource IASP/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/IASP.app/Default-Landscape@2x~ipad.png    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/splash/Default-Landscape@2x~ipad.png /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app36"051E8C89-79B7-4B57-B165-FECB842D44B1-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CCpResource IASP/Resources/splash/Default-Landscape~ipad.png build/emulator/IASP.app/Default-Landscape~ipad.png
+s403800896.773047
+e403800896.788194
+r1
+xCpResource
+xIASP/Resources/splash/Default-Landscape~ipad.png
+xbuild/emulator/IASP.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/emulator/IASP.app/Default-Landscape~ipad.png110"CpResource IASP/Resources/splash/Default-Landscape~ipad.png build/emulator/IASP.app/Default-Landscape~ipad.pnga9f6c5408311b841^00c8c9408311b841^---0#0#1#-19%DVTDocumentLocation2@123"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/Default-Landscape~ipad.png0038ecb0ddffdf42^751"CpResource IASP/Resources/splash/Default-Landscape~ipad.png build/emulator/IASP.app/Default-Landscape~ipad.png    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/splash/Default-Landscape~ipad.png /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app36"2EF1F013-7E68-434F-A0E9-8C051A04327B-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CCpResource IASP/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/IASP.app/Default-Portrait@2x~ipad.png
+s403800896.789513
+e403800896.793090
+r1
+xCpResource
+xIASP/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/emulator/IASP.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/emulator/IASP.app/Default-Portrait@2x~ipad.png114"CpResource IASP/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/IASP.app/Default-Portrait@2x~ipad.pngbe2fca408311b841^5514cb408311b841^---0#0#1#-19%DVTDocumentLocation2@125"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/Default-Portrait@2x~ipad.png0038ecb0ddffdf42^757"CpResource IASP/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/IASP.app/Default-Portrait@2x~ipad.png    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/splash/Default-Portrait@2x~ipad.png /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app36"E9327C0B-3C6E-45C5-9526-717F944FA09E-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CCpResource IASP/Resources/splash/Default-Portrait~ipad.png build/emulator/IASP.app/Default-Portrait~ipad.png
+s403800896.794394
+e403800896.797014
+r1
+xCpResource
+xIASP/Resources/splash/Default-Portrait~ipad.png
+xbuild/emulator/IASP.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/emulator/IASP.app/Default-Portrait~ipad.png108"CpResource IASP/Resources/splash/Default-Portrait~ipad.png build/emulator/IASP.app/Default-Portrait~ipad.png5471cb408311b841^fd13cc408311b841^---0#0#1#-19%DVTDocumentLocation2@122"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/Default-Portrait~ipad.png0038ecb0ddffdf42^748"CpResource IASP/Resources/splash/Default-Portrait~ipad.png build/emulator/IASP.app/Default-Portrait~ipad.png    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/splash/Default-Portrait~ipad.png /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app36"6EB94B00-E833-4EB8-B9E1-4763C6AAAEE9-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CCpResource IASP/Resources/splash/Default@2x~iphone.png build/emulator/IASP.app/Default@2x~iphone.png
+s403800896.798262
+e403800896.801024
+r1
+xCpResource
+xIASP/Resources/splash/Default@2x~iphone.png
+xbuild/emulator/IASP.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/emulator/IASP.app/Default@2x~iphone.png100"CpResource IASP/Resources/splash/Default@2x~iphone.png build/emulator/IASP.app/Default@2x~iphone.png726dcc408311b841^d410cd408311b841^---0#0#1#-19%DVTDocumentLocation2@118"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/Default@2x~iphone.png0038ecb0ddffdf42^736"CpResource IASP/Resources/splash/Default@2x~iphone.png build/emulator/IASP.app/Default@2x~iphone.png    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/splash/Default@2x~iphone.png /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app36"5D6DEDE0-1BA1-47A5-9C04-585381D2951C-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CCpResource IASP/Resources/splash/Default~iphone.png build/emulator/IASP.app/Default~iphone.png
+s403800896.802297
+e403800896.804948
+r1
+xCpResource
+xIASP/Resources/splash/Default~iphone.png
+xbuild/emulator/IASP.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/emulator/IASP.app/Default~iphone.png94"CpResource IASP/Resources/splash/Default~iphone.png build/emulator/IASP.app/Default~iphone.png8673cd408311b841^fd11ce408311b841^---0#0#1#-19%DVTDocumentLocation2@115"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/Default~iphone.png0038ecb0ddffdf42^727"CpResource IASP/Resources/splash/Default~iphone.png build/emulator/IASP.app/Default~iphone.png    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/Resources/splash/Default~iphone.png /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app36"0BE662B8-0423-4A4D-BEAE-B48551785C2C-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CCpResource IASP/config.xml build/emulator/IASP.app/config.xml
+s403800896.726601
+e403800896.729361
+r1
+xCpResource
+xIASP/config.xml
+xbuild/emulator/IASP.app/config.xml
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/emulator/IASP.app/config.xml61"CpResource IASP/config.xml build/emulator/IASP.app/config.xmldf18ba408311b841^2ac5ba408311b841^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/config.xml0038ecb0ddffdf42^669"CpResource IASP/config.xml build/emulator/IASP.app/config.xml    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/config.xml /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app36"D936C9E7-87DF-47BB-A35C-06C509B51749-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CGenerateDSYMFile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app.dSYM /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/IASP
+s403800909.181244
+e403800909.269740
+r1
+xGenerateDSYMFile
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app.dSYM
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/IASP
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Generate /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app.dSYM74"GenerateDSYMFile build/emulator/IASP.app.dSYM build/emulator/IASP.app/IASPcb852e4d8311b841^1f0f454d8311b841^---0#0#1#-19%DVTDocumentLocation2@101"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app.dSYM0038ecb0ddffdf42^691"GenerateDSYMFile build/emulator/IASP.app.dSYM build/emulator/IASP.app/IASP    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/IASP -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app.dSYM36"2BDAE167-3797-4E04-8F46-80E31E10B53C-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CLd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/IASP normal i386
+s403800908.766904
+e403800909.172651
+r1
+xLd
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/IASP
+xnormal
+xi386
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/IASP.LinkFileList
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/main.o
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/AppDelegate.o
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/MainViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libdnsinfo.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Link /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/IASP43"Ld build/emulator/IASP.app/IASP normal i386c172c44c8311b841^09342c4d8311b841^---0#0#1#--1783"Ld build/emulator/IASP.app/IASP normal i386    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator -filelist /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/IASP.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/IASP_dependency_info.dat -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/IASP36"FBEC5515-EC04-485F-A0F8-3879B37CC4DF-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CPhaseScriptExecution Copy\ www\ directory /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Script-304B58A110DAC018002A0835.sh
+s403800896.261250
+e403800896.718360
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.424s
+ouser	0m0.144s
+osys	0m0.171s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'126"PhaseScriptExecution Copy\ www\ directory build/IASP.build/Debug-iphonesimulator/IASP.build/Script-304B58A110DAC018002A0835.sh3cbc43408311b841^4be7b7408311b841^-42"real	0m0.424suser	0m0.144ssys	0m0.171s3(21%IDEActivityLogMessage2@14"real	0m0.424s-403800896#1#14#-0#-----2@14"user	0m0.144s-403800896#15#14#-0#-----2@13"sys	0m0.171s-403800896#29#13#-0#-----0#0#1#--22156"PhaseScriptExecution Copy\ www\ directory build/IASP.build/Debug-iphonesimulator/IASP.build/Script-304B58A110DAC018002A0835.sh    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER Synergic_01    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv ALWAYS_USE_SEPARATE_HEADERMAPS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD i386    setenv ARCHS_STANDARD_32_64_BIT i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv ARCHS_STANDARD_INCLUDING_64_BIT "i386 x86_64"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build    setenv BUILD_ROOT /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator    setenv CACHE_ROOT /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode    setenv CCHROOT /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_BOOL_CONVERSION YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_EMPTY_BODY YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app    setenv CODE_SIGNING_ALLOWED NO    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneSimulatorCodeSignContext    setenv COLOR_DIAGNOSTICS NO    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator    setenv CONFIGURATION_TEMP_DIR /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH IASP.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CREATE_INFOPLIST_SECTION_IN_BINARY NO    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEFAULT_KEXT_INSTALL_PATH /System/Library/Extensions    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH IASP.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/IASP.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME IASP.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH IASP.app/Executables    setenv EXECUTABLE_FOLDER_PATH IASP.app    setenv EXECUTABLE_NAME IASP    setenv EXECUTABLE_PATH IASP.app/IASP    setenv FILE_LIST /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH IASP.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME IASP.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER IASP/IASP-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNDECLARED_SELECTOR YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_FUNCTION YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include \"/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/usr/local/lib/include\" \"/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/UninstalledProducts/include\" \"/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE IASP/IASP-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH IASP.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH IASP.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/IASP.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER Synergic_01    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/IASP.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH IASP.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DEPENDENCY_INFO_FILE /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/IASP_dependency_info.dat    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/IASP-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER YES    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_KEXT_INSTALL_PATH /Library/Extensions    setenv LIBRARY_SEARCH_PATHS "/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal/i386/IASP.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH IASP.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12F45    setenv MAC_OS_X_VERSION_ACTUAL 1085    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0805    setenv MODULE_CACHE_DIR /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Objects-normal    setenv OBJROOT /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load \"/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/libCordova.a\" -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH IASP.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/PkgInfo    setenv PKGINFO_PATH IASP.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 11A465    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 70000    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH IASP.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH IASP.app/PrivateHeaders    setenv PRODUCT_NAME IASP    setenv PRODUCT_SETTINGS_PATH /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/IASP-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT IASP    setenv PROJECT_DERIVED_FILE_DIR /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/DerivedSources    setenv PROJECT_DIR /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv PROJECT_FILE_PATH /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP.xcodeproj    setenv PROJECT_NAME IASP    setenv PROJECT_TEMP_DIR /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build    setenv PROJECT_TEMP_ROOT /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build    setenv PUBLIC_HEADERS_FOLDER_PATH IASP.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator "    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH IASP.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk    setenv SDK_NAME iphonesimulator7.0    setenv SDK_PRODUCT_BUILD_VERSION 11A465    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH IASP.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH IASP.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv SRCROOT /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_KEXT_INSTALL_PATH /System/Library/Extensions    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME IASP    setenv TARGET_BUILD_DIR /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator    setenv TARGET_NAME IASP    setenv TARGET_TEMP_DIR /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build    setenv TEMP_DIR /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build    setenv TEMP_FILES_DIR /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build    setenv TEMP_FILE_DIR /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build    setenv TEMP_ROOT /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH IASP.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER Synergic_01    setenv USER_APPS_DIR /Users/Synergic_01/Applications    setenv USER_LIBRARY_DIR /Users/Synergic_01/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH IASP.app/version.plist    setenv VERSION_INFO_BUILDER Synergic_01    setenv VERSION_INFO_FILE IASP_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:IASP  PROJECT:IASP-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME IASP.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 5A1413    setenv XCODE_VERSION_ACTUAL 0500    setenv XCODE_VERSION_MAJOR 0500    setenv XCODE_VERSION_MINOR 0500    setenv XPCSERVICES_FOLDER_PATH IASP.app/XPCServices    setenv YACC yacc    setenv arch i386    setenv variant normal    /bin/sh -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/Script-304B58A110DAC018002A0835.sh36"7CF7179A-76FC-42CB-8BFC-6D46845DC867-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CProcessInfoPlistFile /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/Info.plist /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/IASP-Info.plist
+s403800896.239981
+e403800896.251239
+r1
+xProcessInfoPlistFile
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/Info.plist
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/IASP-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Process /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/IASP-Info.plist76"ProcessInfoPlistFile build/emulator/IASP.app/Info.plist IASP/IASP-Info.plist22a53d408311b841^fa6140408311b841^---0#0#1#-19%DVTDocumentLocation2@93"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/IASP-Info.plist0000000000000000^783"ProcessInfoPlistFile build/emulator/IASP.app/Info.plist IASP/IASP-Info.plist    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/IASP-Info.plist -genpkginfo /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app/Info.plist36"BA822212-077A-4BDF-A89A-F91BE8DE2D06-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CProcessPCH /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/IASP-Prefix-camllvvuefnbglflrsccrjgcptvc/IASP-Prefix.pch.pch IASP/IASP-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403800908.153139
+e403800908.620835
+r1
+xProcessPCH
+x/var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/IASP-Prefix-camllvvuefnbglflrsccrjgcptvc/IASP-Prefix.pch.pch
+xIASP/IASP-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/IASP-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile IASP/IASP-Prefix.pch276"ProcessPCH /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/IASP-Prefix-camllvvuefnbglflrsccrjgcptvc/IASP-Prefix.pch.pch IASP/IASP-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere753274c8311b841^3def9e4c8311b841^---0#0#1#-19%DVTDocumentLocation2@93"file://localhost/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/IASP-Prefix.pch0000000000000000^3764"ProcessPCH /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/IASP-Prefix-camllvvuefnbglflrsccrjgcptvc/IASP-Prefix.pch.pch IASP/IASP-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/IASP-generated-files.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/IASP-own-target-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/IASP-all-target-headers.hmap -iquote /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/IASP-project-headers.hmap -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/usr/local/lib/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/UninstalledProducts/include -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/DerivedSources/i386 -I/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/IASP.build/Debug-iphonesimulator/IASP.build/DerivedSources -F/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator --serialize-diagnostics /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/IASP-Prefix-camllvvuefnbglflrsccrjgcptvc/IASP-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/IASP-Prefix-camllvvuefnbglflrsccrjgcptvc/IASP-Prefix.pch.d -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/IASP/IASP-Prefix.pch -o /var/folders/sf/_f0m9frs10g9dzhgtqkgjt680000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/IASP-Prefix-camllvvuefnbglflrsccrjgcptvc/IASP-Prefix.pch.pch36"C1C0E7C0-650C-423D-967A-BD54CEA63A7C-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
+CTouch /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app
+s403800909.278807
+e403800909.285634
+r1
+xTouch
+x/Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Touch /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app29"Touch build/emulator/IASP.app3275474d8311b841^921f494d8311b841^---0#0#1#--474"Touch build/emulator/IASP.app    cd /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Synergic_01/sdk/platform-tools:/Users/Synergic_01/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/Synergic_01/Projects/IASP/Code/iasp/platforms/ios/build/emulator/IASP.app36"750EDD0A-EF7C-4551-BE3C-05E5038138FD-
+b3C1C89D1-24AF-439B-A74E-406CACC2DADE
+
