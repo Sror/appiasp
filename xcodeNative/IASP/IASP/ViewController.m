@@ -16,14 +16,21 @@
 
 @implementation ViewController
 
+#pragma mark - View life cicle
+#
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
     _menuItems = @[@"Revistas", @"Notícias", @"Notas e Faltas", @"Contato"];
-    
     _tableViewMenu.separatorStyle = UITableViewCellSeparatorStyleNone;
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [[self navigationController] setNavigationBarHidden:YES animated:YES];
 }
 
 - (void)didReceiveMemoryWarning
@@ -33,6 +40,16 @@
 }
 
 
+#pragma mark - StatusBar White
+#
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+
+
+#pragma mark - TableView DataSource
+#
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return [_menuItems count];
@@ -64,6 +81,9 @@
     return cell;
 }
 
+
+#pragma mark - TableView Delegate
+#
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSLog(@"index %i", indexPath.row);
@@ -89,6 +109,9 @@
     }
 }
 
+
+#pragma mark - Storyboard Segue
+#
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if([segue.identifier isEqualToString:@"noticias"]){
