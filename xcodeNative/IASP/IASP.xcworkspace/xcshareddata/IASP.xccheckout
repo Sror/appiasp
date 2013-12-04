@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7993AE2F-084C-4ADE-B94B-F0F98DF06BAB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IASP</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DFB59AD7-6BE2-426E-A089-F8DBB8C71152</key>
+		<string>https://github.com/organitcodes/appiasp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>xcodeNative/IASP/IASP.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DFB59AD7-6BE2-426E-A089-F8DBB8C71152</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/organitcodes/appiasp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DFB59AD7-6BE2-426E-A089-F8DBB8C71152</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DFB59AD7-6BE2-426E-A089-F8DBB8C71152</string>
+			<key>IDESourceControlWCCName</key>
+			<string>appiasp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

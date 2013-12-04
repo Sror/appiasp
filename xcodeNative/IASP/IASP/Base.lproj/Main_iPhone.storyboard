@@ -98,9 +98,22 @@
                     <view key="view" contentMode="scaleToFill" id="vqE-tb-ggg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="MHW-ma-H5G">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="QUD-zJ-MZi" id="8vU-ro-D3k"/>
+                                    <outlet property="delegate" destination="QUD-zJ-MZi" id="2we-NO-cZK"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                     </view>
                     <navigationItem key="navigationItem" id="sxg-aG-Wnb"/>
+                    <connections>
+                        <outlet property="tableViewNoticias" destination="MHW-ma-H5G" id="wvT-pr-ByJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bGv-Yc-Jc1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
