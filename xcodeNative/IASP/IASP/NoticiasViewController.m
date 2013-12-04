@@ -7,8 +7,14 @@
 //
 
 #import "NoticiasViewController.h"
+#import "NoticiasViewCell.h"
+
+#import <AFNetworking/AFHTTPRequestOperationManager.h>
+#import <AFNetworking/UIImageView+AFNetworking.h>
 
 @interface NoticiasViewController ()
+
+@property (nonatomic, strong) NSArray *apiData;
 
 @end
 
@@ -31,7 +37,15 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    
+//    NSURL *URL = [NSURL URLWithString:@"http://iasp.br/appios/ws/?function=GetLastsNoticiasByCategory&categoryId=2"];
+//    NSURLRequest *request = [NSURLRequest requestWithURL:URL];
+//    AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc]
+//                                         initWithRequest:request];
+//    operation.responseSerializer = [AFJSONResponseSerializer serializer];
+//    [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+//        NSLog(@"%@", responseObject);
+//    } failure:nil];
+//    [operation start];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -40,6 +54,22 @@
     
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:36/255.0 green:74/255.0 blue:128/255.0 alpha:1.0];
     [[self navigationController] setNavigationBarHidden:NO animated:animated];
+    
+    [self getNews];
+}
+
+- (void)getNews
+{
+    NSString *getNews = @"http://iasp.br/appios/ws/?function=GetLastsNoticiasByCategory&categoryId=2";
+    
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    manager.responseSerializer = [AFJSONResponseSerializer serializer];
+    [manager GET:getNews parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+//        NSLog(@"%@", responseObject);
+        _apiData = (NSArray *)responseObject;
+        [self.tableViewNoticias reloadData];
+        
+    } failure:nil];
 }
 
 #pragma mark - StatusBar White
@@ -54,21 +84,21 @@
 #
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 10;
+    return [_apiData count];
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 300;
+    return 400;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSString *cellId = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
+    NoticiasViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
     
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
+        cell = [[NoticiasViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
     }
     
     // Line
@@ -80,10 +110,17 @@
     // Cell style
     cell.textLabel.text = @"Noticia";
     cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:19];
-//    cell.textLabel.textAlignment = NSTextAlignmentCenter;
-//    cell.textLabel.textColor = [UIColor whiteColor];
     
-//    cell.backgroundColor = [UIColor clearColor];
+    
+    NSDictionary *news = _apiData[indexPath.row];
+    
+    cell.labelDate.text = news[@"date"];
+    cell.labelTitle.text = news[@"title"];
+    [cell.labelTitle sizeToFit];
+    
+    
+    
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
     return cell;
 }
