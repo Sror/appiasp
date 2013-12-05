@@ -11,6 +11,7 @@
 
 #import <AFNetworking/AFHTTPRequestOperationManager.h>
 #import <AFNetworking/UIImageView+AFNetworking.h>
+#import <SDWebImage/UIImageView+WebCache.h>
 
 @interface NoticiasViewController ()
 
@@ -52,8 +53,10 @@
 {
     [super viewWillAppear:animated];
     
-    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:36/255.0 green:74/255.0 blue:128/255.0 alpha:1.0];
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:36/255.0 green:74/255.0 blue:128/255.0 alpha:0.85];
     [[self navigationController] setNavigationBarHidden:NO animated:animated];
+    
+    _tableViewNoticias.separatorStyle = UITableViewCellSeparatorStyleNone;
     
     [self getNews];
 }
@@ -89,7 +92,7 @@
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 400;
+    return 460;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -114,10 +117,21 @@
     
     NSDictionary *news = _apiData[indexPath.row];
     
+    // Date
     cell.labelDate.text = news[@"date"];
+    
+    // Image
+    [cell.imagePreview setImageWithURL:[NSURL URLWithString:news[@"image"]]];
+    
+    // Title
     cell.labelTitle.text = news[@"title"];
     [cell.labelTitle sizeToFit];
     
+    // Preview
+    cell.labelPreview.frame = CGRectMake(15, CGRectGetHeight(cell.labelTitle.frame)+cell.labelTitle.frame.origin.y+18,
+                                         CGRectGetWidth(cell.frame)-30,50);
+    cell.labelPreview.text = news[@"preview"];
+    [cell.labelPreview sizeToFit];
     
     
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
