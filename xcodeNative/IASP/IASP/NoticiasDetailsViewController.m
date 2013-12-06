@@ -32,7 +32,6 @@
 	// Do any additional setup after loading the view.
     
     NSLog(@"ID: %@", _noticiaId);
-    
     [self getNew];
 }
 

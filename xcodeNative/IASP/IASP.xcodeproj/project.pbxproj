@@ -26,6 +26,7 @@
 		1AB21FD6184EADFA00FC0233 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AB21FD4184EADFA00FC0233 /* InfoPlist.strings */; };
 		1AB21FD8184EADFA00FC0233 /* IASPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB21FD7184EADFA00FC0233 /* IASPTests.m */; };
 		1AB21FE3184EC09400FC0233 /* NoticiasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB21FE2184EC09400FC0233 /* NoticiasViewController.m */; };
+		1AC32DFC18517391004095A2 /* RevistasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC32DFB18517391004095A2 /* RevistasViewController.m */; };
 		53673F0BA658407395E24F1C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E464A945B21749D9A0BE7C0F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,8 @@
 		1AB21FD7184EADFA00FC0233 /* IASPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IASPTests.m; sourceTree = "<group>"; };
 		1AB21FE1184EC09400FC0233 /* NoticiasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticiasViewController.h; sourceTree = "<group>"; };
 		1AB21FE2184EC09400FC0233 /* NoticiasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticiasViewController.m; sourceTree = "<group>"; };
+		1AC32DFA18517391004095A2 /* RevistasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevistasViewController.h; sourceTree = "<group>"; };
+		1AC32DFB18517391004095A2 /* RevistasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RevistasViewController.m; sourceTree = "<group>"; };
 		642C309C3E8C40C293EAC855 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		E464A945B21749D9A0BE7C0F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -143,6 +146,8 @@
 				1A5C79F2184FE6FE00FC42C0 /* NoticiasViewCell.m */,
 				1A2FD508185156C400B482DD /* NoticiasDetailsViewController.h */,
 				1A2FD509185156C400B482DD /* NoticiasDetailsViewController.m */,
+				1AC32DFA18517391004095A2 /* RevistasViewController.h */,
+				1AC32DFB18517391004095A2 /* RevistasViewController.m */,
 				1AB21FC4184EADF900FC0233 /* Images.xcassets */,
 				1AB21FB0184EADF900FC0233 /* Supporting Files */,
 			);
@@ -319,6 +324,7 @@
 				1AB21FBA184EADF900FC0233 /* AppDelegate.m in Sources */,
 				1A5C79F3184FE6FE00FC42C0 /* NoticiasViewCell.m in Sources */,
 				1AB21FB6184EADF900FC0233 /* main.m in Sources */,
+				1AC32DFC18517391004095A2 /* RevistasViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
