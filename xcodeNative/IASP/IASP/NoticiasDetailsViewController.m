@@ -31,6 +31,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
+    NSLog(@"ID: %@", _noticiaId);
+    
     [self getNew];
 }
 
@@ -40,10 +42,9 @@
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     manager.responseSerializer = [AFJSONResponseSerializer serializer];
-    [manager GET:getNews parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        NSLog(@"%@", responseObject);
+    [manager GET:getNews parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject)
+    {
         _noticia = (NSDictionary *)responseObject;
-        
         [self injectWebView];
     } failure:nil];
 }

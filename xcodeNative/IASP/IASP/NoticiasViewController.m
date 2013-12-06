@@ -158,7 +158,7 @@
     NSLog(@"index %i", indexPath.row);
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    [self performSegueWithIdentifier:@"noticiasDetails" sender:[NSString stringWithFormat:@"%i", indexPath.row]];
+    [self performSegueWithIdentifier:@"noticiasDetails" sender:indexPath];
 }
 
 
@@ -167,8 +167,11 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if([segue.identifier isEqualToString:@"noticiasDetails"]){
+        NSIndexPath *indexPath = (NSIndexPath *)sender;
+        NSDictionary *news = _apiData[indexPath.row];
+        
         NoticiasDetailsViewController *noticiasDetails = segue.destinationViewController;
-        noticiasDetails.noticiaId = (NSNumber *)sender;
+        noticiasDetails.noticiaId = news[@"id"];
         
         // Back button
         self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@""
