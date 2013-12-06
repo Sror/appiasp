@@ -40,15 +40,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-
-#pragma mark - StatusBar White
-#
-- (UIStatusBarStyle)preferredStatusBarStyle
-{
-    return UIStatusBarStyleLightContent;
-}
-
-
 #pragma mark - TableView DataSource
 #
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

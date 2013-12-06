@@ -52,8 +52,6 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    
-    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:36/255.0 green:74/255.0 blue:128/255.0 alpha:0.85];
     [[self navigationController] setNavigationBarHidden:NO animated:animated];
     
     _tableViewNoticias.separatorStyle = UITableViewCellSeparatorStyleNone;
@@ -75,14 +73,6 @@
     } failure:nil];
 }
 
-#pragma mark - StatusBar White
-#
-- (UIStatusBarStyle)preferredStatusBarStyle
-{
-    return UIStatusBarStyleLightContent;
-}
-
-
 #pragma mark - TableView DataSource
 #
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -90,9 +80,25 @@
     return [_apiData count];
 }
 
--(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 460;
+    NSDictionary *news = _apiData[indexPath.row];
+    
+    NSString *text = news[@"title"];
+    NSString *preview = news[@"preview"];
+    CGSize constraint = CGSizeMake(self.view.frame.size.width - (15 * 2), 20000.0f);
+    CGSize sizeText = [text sizeWithFont:[UIFont fontWithName:@"HelveticaNeue-Light" size:20]
+                       constrainedToSize:constraint
+                           lineBreakMode:NSLineBreakByWordWrapping];
+    CGFloat heightText = MAX(sizeText.height, 25.0f);
+    
+    //
+    CGSize sizePreview = [preview sizeWithFont:[UIFont fontWithName:@"HelveticaNeue-Light" size:14]
+                             constrainedToSize:constraint
+                                 lineBreakMode:NSLineBreakByWordWrapping];
+    CGFloat heightPreview = MAX(sizePreview.height, 44.0f);
+    
+    return heightText + heightPreview + 356;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -110,11 +116,6 @@
     line.alpha = 0.3;
     [cell addSubview:line];
     
-    // Cell style
-    cell.textLabel.text = @"Noticia";
-    cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:19];
-    
-    
     NSDictionary *news = _apiData[indexPath.row];
     
     // Date
@@ -124,8 +125,17 @@
     [cell.imagePreview setImageWithURL:[NSURL URLWithString:news[@"image"]]];
     
     // Title
+    CGSize constraint = CGSizeMake(self.view.frame.size.width - (15 * 2), 20000.0f);
+    CGSize sizeText = [news[@"title"] sizeWithFont:[UIFont fontWithName:@"HelveticaNeue-Light" size:20]
+                                 constrainedToSize:constraint
+                                     lineBreakMode:NSLineBreakByWordWrapping];
+    CGFloat heightText = MAX(sizeText.height, 25.0f);
     cell.labelTitle.text = news[@"title"];
-    [cell.labelTitle sizeToFit];
+    
+    CGRect titleFrame = cell.labelTitle.frame;
+    titleFrame.size.height = heightText;
+    cell.labelTitle.frame = titleFrame;
+    
     
     // Preview
     cell.labelPreview.frame = CGRectMake(15, CGRectGetHeight(cell.labelTitle.frame)+cell.labelTitle.frame.origin.y+18,

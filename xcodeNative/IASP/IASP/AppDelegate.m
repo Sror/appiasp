@@ -14,6 +14,13 @@
 {
     self.window.tintColor = [UIColor whiteColor];
     
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
+    // Custom Bar
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:36/255.0 green:74/255.0 blue:128/255.0 alpha:1]];
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navBar"] forBarMetrics:UIBarMetricsDefault];
+//    [[UINavigationBar appearance] setFrame:CGRectMake(0, 0, self.view.frame.size.width, 80)];
+    
     // Override point for customization after application launch.
     return YES;
 }

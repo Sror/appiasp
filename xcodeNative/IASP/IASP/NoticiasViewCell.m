@@ -22,16 +22,17 @@
         
         //
         self.imagePreview = [[UIImageView alloc] initWithFrame:CGRectMake(0,
-                                                                          CGRectGetHeight(self.labelDate.frame)+54,
+                                                                          CGRectGetHeight(self.labelDate.frame)+44,
                                                                           CGRectGetWidth(self.frame),
                                                                           212)];
-        self.imagePreview.backgroundColor = [UIColor redColor];
+        self.imagePreview.backgroundColor = [UIColor lightGrayColor];
         
         //
-        self.labelTitle = [[UILabel alloc] initWithFrame:CGRectMake(15, CGRectGetHeight(self.imagePreview.frame)+self.imagePreview.frame.origin.y+20, CGRectGetWidth(self.frame)-30, 50)];
+        self.labelTitle = [[UILabel alloc] initWithFrame:CGRectMake(15, CGRectGetHeight(self.imagePreview.frame)+self.imagePreview.frame.origin.y+20, CGRectGetWidth(self.frame)-30, 30)];
         self.labelTitle.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:20];
         self.labelTitle.textColor = [UIColor colorWithRed:45/255.0 green:45/255.0 blue:45/255.0 alpha:1];
         self.labelTitle.numberOfLines = 0;
+        self.labelTitle.lineBreakMode = NSLineBreakByWordWrapping;
         
         
         //
@@ -50,32 +51,6 @@
         separator.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"separator"]];
 
         [self addSubview:separator];
-//
-//        // Line 1
-//        UIView *line1 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.frame), 1)];
-//        line1.backgroundColor = [UIColor colorWithRed:224/255.0 green:224/255.0 blue:224/255.0 alpha:1];
-//        [separator addSubview:line1];
-//        
-//        // Line 2
-//        UIView *line2 = [[UIView alloc] initWithFrame:CGRectMake(0, 24, CGRectGetWidth(self.frame), 1)];
-//        line2.backgroundColor = [UIColor colorWithRed:224/255.0 green:224/255.0 blue:224/255.0 alpha:1];
-//        [separator addSubview:line1];
-        
-        
-        
-//        UILabel *question = [[UILabel alloc] initWithFrame:CGRectMake(0, ansSpace + 10, CGRectGetWidth(scrollView.frame), 50)];
-//        question.font = [UIFont fontWithName:@"ProximaNova-Semibold" size:16];
-//        question.text = [wrongAnswer valueForKeyPath:@"data.title"];
-//        question.textColor = [UIColor whiteColor];
-//        question.lineBreakMode = NSLineBreakByWordWrapping;
-//        question.backgroundColor = [UIColor clearColor];
-//        question.textAlignment = NSTextAlignmentLeft;
-//        question.numberOfLines = 0;
-//        [question sizeToFit];
-//        CGRect myFrame = question.frame;
-//        myFrame = CGRectMake(myFrame.origin.x, myFrame.origin.y, CGRectGetWidth(scrollView.frame), myFrame.size.height);
-//        question.frame = myFrame;
-        
         [self addSubview:self.labelDate];
         [self addSubview:self.labelTitle];
         [self addSubview:self.labelPreview];
@@ -88,15 +63,30 @@
 - (void)prepareForReuse
 {
     [super prepareForReuse];
-    
     self.imagePreview.image = nil;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {
     [super setSelected:selected animated:animated];
-
     // Configure the view for the selected state
 }
+
+//- (void)layoutSubviews
+//{
+//    NSLog(@"title: %@", self.labelTitle.text);
+//    
+//    CGSize constraint = CGSizeMake(self.frame.size.width - (15 * 2), 20000.0f);
+//    CGSize sizeText = [self.labelTitle.text sizeWithFont:[UIFont fontWithName:@"HelveticaNeue-Light" size:20]
+//                                       constrainedToSize:constraint
+//                                           lineBreakMode:NSLineBreakByWordWrapping];
+//    CGFloat heightText = MAX(sizeText.height, 25.0f);
+//    
+//    CGRect titleFrame = self.labelTitle.frame;
+//    titleFrame.size.height = heightText;
+//    self.labelTitle.frame = titleFrame;
+//    
+//    [self.labelPreview sizeToFit];
+//}
 
 @end
