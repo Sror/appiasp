@@ -16,12 +16,12 @@
     if (self) {
         // Initialization code
         
-        self.labelTitle = [[UILabel alloc] initWithFrame:CGRectMake(126, 70, 190, 28)];
+        self.labelTitle = [[UILabel alloc] initWithFrame:CGRectMake(130, 70, 190, 28)];
         self.labelTitle.font = [UIFont fontWithName:@"HelveticaNeue-BoldItalic" size:22];
         self.labelTitle.textColor = [UIColor colorWithRed:79/255.0 green:79/255.0 blue:79/255.0 alpha:1.0];
         
         //
-        self.labelSubtitle = [[UILabel alloc] initWithFrame:CGRectMake(126, 96, 190, 28)];
+        self.labelSubtitle = [[UILabel alloc] initWithFrame:CGRectMake(130, 96, 190, 28)];
         self.labelSubtitle.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:14];
         self.labelSubtitle.textColor = [UIColor colorWithRed:79/255.0 green:79/255.0 blue:79/255.0 alpha:1.0];
         
