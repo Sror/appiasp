@@ -109,13 +109,13 @@
     if([segue.identifier isEqualToString:@"noticias"]){
 //        NSIndexPath *indexPath = (NSIndexPath *)sender;
 //        UIViewController *noticias = segue.destinationViewController;
-        
-        // Back button
-        self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@""
-                                                                                 style:UIBarButtonItemStylePlain
-                                                                                target:nil
-                                                                                action:nil];
     }
+    
+    // Back button
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@""
+                                                                             style:UIBarButtonItemStylePlain
+                                                                            target:nil
+                                                                            action:nil];
 }
 
 @end

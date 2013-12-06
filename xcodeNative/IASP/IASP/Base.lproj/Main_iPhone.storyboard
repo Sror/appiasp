@@ -81,12 +81,45 @@
                     <connections>
                         <outlet property="tableViewMenu" destination="MqJ-vg-Vds" id="q9V-H3-KB5"/>
                         <segue destination="QUD-zJ-MZi" kind="push" identifier="noticias" id="a3e-F4-FmS"/>
-                        <segue destination="WV6-Bm-o2m" kind="push" identifier="revistas" id="yqo-ye-MyP"/>
+                        <segue destination="rh8-89-FrS" kind="push" identifier="revistas" id="pQq-Dg-EHX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="48" y="7"/>
+        </scene>
+        <!--Revistas View Controller-->
+        <scene sceneID="HGX-fk-Kse">
+            <objects>
+                <viewController id="rh8-89-FrS" customClass="RevistasViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="P0b-P0-m6u"/>
+                        <viewControllerLayoutGuide type="bottom" id="RKe-bX-FPm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RLj-pK-K50">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="7hH-Pg-PRs">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="rh8-89-FrS" id="30B-uU-4i3"/>
+                                    <outlet property="delegate" destination="rh8-89-FrS" id="Ajd-xp-NaD"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="J3E-yN-5DM"/>
+                    <connections>
+                        <outlet property="tableView" destination="7hH-Pg-PRs" id="ktW-eI-FfN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8uo-JG-BIP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="646" y="-336"/>
         </scene>
         <!--Noticias View Controller-->
         <scene sceneID="TLJ-OB-GfK">
@@ -120,35 +153,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bGv-Yc-Jc1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="646" y="366"/>
-        </scene>
-        <!--Revistas View Controller-->
-        <scene sceneID="JRA-ss-FAh">
-            <objects>
-                <tableViewController id="WV6-Bm-o2m" customClass="RevistasViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="bnK-sg-Td3">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="rV3-g6-QR4">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rV3-g6-QR4" id="MYA-3T-c7T">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="WV6-Bm-o2m" id="lYa-xp-n34"/>
-                            <outlet property="delegate" destination="WV6-Bm-o2m" id="BDH-FV-4x1"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" id="5UU-y9-IJ4"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uiy-eG-yk3" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="646" y="-326"/>
         </scene>
         <!--Noticias Details View Controller-->
         <scene sceneID="L7k-8p-uj5">

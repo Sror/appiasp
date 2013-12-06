@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RevistasViewController : UITableViewController
+@interface RevistasViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 @end

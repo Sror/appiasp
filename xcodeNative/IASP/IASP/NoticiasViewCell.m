@@ -72,21 +72,4 @@
     // Configure the view for the selected state
 }
 
-//- (void)layoutSubviews
-//{
-//    NSLog(@"title: %@", self.labelTitle.text);
-//    
-//    CGSize constraint = CGSizeMake(self.frame.size.width - (15 * 2), 20000.0f);
-//    CGSize sizeText = [self.labelTitle.text sizeWithFont:[UIFont fontWithName:@"HelveticaNeue-Light" size:20]
-//                                       constrainedToSize:constraint
-//                                           lineBreakMode:NSLineBreakByWordWrapping];
-//    CGFloat heightText = MAX(sizeText.height, 25.0f);
-//    
-//    CGRect titleFrame = self.labelTitle.frame;
-//    titleFrame.size.height = heightText;
-//    self.labelTitle.frame = titleFrame;
-//    
-//    [self.labelPreview sizeToFit];
-//}
-
 @end

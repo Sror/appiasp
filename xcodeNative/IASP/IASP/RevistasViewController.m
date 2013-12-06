@@ -7,16 +7,21 @@
 //
 
 #import "RevistasViewController.h"
+#import "RevistasViewCell.h"
 
 @interface RevistasViewController ()
+
+@property (nonatomic, strong) NSArray *apiData;
 
 @end
 
 @implementation RevistasViewController
 
-- (id)initWithStyle:(UITableViewStyle)style
+#pragma mark - View life cicle
+#
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
-    self = [super initWithStyle:style];
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
     }
@@ -28,18 +33,12 @@
     [super viewDidLoad];
     
     [[self navigationController] setNavigationBarHidden:NO animated:YES];
-
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
- 
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    
+    // Load local JSON file
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"revistas" ofType:@"json"];
+    NSString *fileContent = [[NSString alloc] initWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
+    _apiData = [NSJSONSerialization JSONObjectWithData:[fileContent dataUsingEncoding:NSUTF8StringEncoding] options:kNilOptions error:nil];
 }
 
 #pragma mark - Table view data source
@@ -47,22 +46,34 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return 10;
+    return [_apiData count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    RevistasViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        cell = [[RevistasViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
+    NSLog(@"%@", _apiData);
     
-    cell.textLabel.text = @"Magazine";
+    NSDictionary *magazine = _apiData[indexPath.row];
+    
+    cell.labelTitle.text = magazine[@"title"];
+    cell.labelSubtitle.text = magazine[@"subtitle"];
+    cell.imagePreview.image = [UIImage imageNamed:magazine[@"cover"]];
+    
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
     return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 177;
 }
 
 /*

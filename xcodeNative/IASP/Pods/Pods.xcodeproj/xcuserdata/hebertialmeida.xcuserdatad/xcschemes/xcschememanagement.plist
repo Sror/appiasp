@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>Pods-vfrReader.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -22,7 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>1BF33FFF69D94E56849E5047</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>89AEDFE14BF848CCAD427001</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2AD9C6B588E4DBD93C5F763</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B8EF00BC1CEB411F804C19B9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -43,6 +63,11 @@
 			<true/>
 		</dict>
 		<key>EFE9B11190744863A1A34972</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F70C278E695F4A339CA2E25D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
