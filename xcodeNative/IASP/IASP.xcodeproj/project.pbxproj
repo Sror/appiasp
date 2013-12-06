@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A2FD50A185156C500B482DD /* NoticiasDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2FD509185156C400B482DD /* NoticiasDetailsViewController.m */; };
+		1A2FD50C1851626800B482DD /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 1A2FD50B1851626800B482DD /* style.css */; };
 		1A5C79F3184FE6FE00FC42C0 /* NoticiasViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5C79F2184FE6FE00FC42C0 /* NoticiasViewCell.m */; };
 		1AB21FAA184EADF900FC0233 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB21FA9184EADF900FC0233 /* Foundation.framework */; };
 		1AB21FAC184EADF900FC0233 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB21FAB184EADF900FC0233 /* CoreGraphics.framework */; };
@@ -38,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A2FD508185156C400B482DD /* NoticiasDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticiasDetailsViewController.h; sourceTree = "<group>"; };
+		1A2FD509185156C400B482DD /* NoticiasDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticiasDetailsViewController.m; sourceTree = "<group>"; };
+		1A2FD50B1851626800B482DD /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		1A5C79F1184FE6FE00FC42C0 /* NoticiasViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticiasViewCell.h; sourceTree = "<group>"; };
 		1A5C79F2184FE6FE00FC42C0 /* NoticiasViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticiasViewCell.m; sourceTree = "<group>"; };
 		1AB21FA6184EADF900FC0233 /* IASP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IASP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +141,8 @@
 				1AB21FE2184EC09400FC0233 /* NoticiasViewController.m */,
 				1A5C79F1184FE6FE00FC42C0 /* NoticiasViewCell.h */,
 				1A5C79F2184FE6FE00FC42C0 /* NoticiasViewCell.m */,
+				1A2FD508185156C400B482DD /* NoticiasDetailsViewController.h */,
+				1A2FD509185156C400B482DD /* NoticiasDetailsViewController.m */,
 				1AB21FC4184EADF900FC0233 /* Images.xcassets */,
 				1AB21FB0184EADF900FC0233 /* Supporting Files */,
 			);
@@ -146,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				1AB21FB1184EADF900FC0233 /* IASP-Info.plist */,
+				1A2FD50B1851626800B482DD /* style.css */,
 				1AB21FB2184EADF900FC0233 /* InfoPlist.strings */,
 				1AB21FB5184EADF900FC0233 /* main.m */,
 				1AB21FB7184EADF900FC0233 /* IASP-Prefix.pch */,
@@ -251,6 +259,7 @@
 			files = (
 				1AB21FC0184EADF900FC0233 /* Main_iPad.storyboard in Resources */,
 				1AB21FC5184EADF900FC0233 /* Images.xcassets in Resources */,
+				1A2FD50C1851626800B482DD /* style.css in Resources */,
 				1AB21FBD184EADF900FC0233 /* Main_iPhone.storyboard in Resources */,
 				1AB21FB4184EADF900FC0233 /* InfoPlist.strings in Resources */,
 			);
@@ -305,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AB21FE3184EC09400FC0233 /* NoticiasViewController.m in Sources */,
+				1A2FD50A185156C500B482DD /* NoticiasDetailsViewController.m in Sources */,
 				1AB21FC3184EADF900FC0233 /* ViewController.m in Sources */,
 				1AB21FBA184EADF900FC0233 /* AppDelegate.m in Sources */,
 				1A5C79F3184FE6FE00FC42C0 /* NoticiasViewCell.m in Sources */,

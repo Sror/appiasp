@@ -8,6 +8,7 @@
 
 #import "NoticiasViewController.h"
 #import "NoticiasViewCell.h"
+#import "NoticiasDetailsViewController.h"
 
 #import <AFNetworking/AFHTTPRequestOperationManager.h>
 #import <AFNetworking/UIImageView+AFNetworking.h>
@@ -157,23 +158,23 @@
     NSLog(@"index %i", indexPath.row);
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
-    switch (indexPath.row) {
-        case 0:
-            
-            break;
-        case 1:
-//            [self performSegueWithIdentifier:@"noticias" sender:nil];
-            break;
-        case 2:
-            
-            break;
-        case 3:
-            
-            break;
-            
-        default:
-            break;
+    [self performSegueWithIdentifier:@"noticiasDetails" sender:[NSString stringWithFormat:@"%i", indexPath.row]];
+}
+
+
+#pragma mark - Storyboard Segue
+#
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if([segue.identifier isEqualToString:@"noticiasDetails"]){
+        NoticiasDetailsViewController *noticiasDetails = segue.destinationViewController;
+        noticiasDetails.noticiaId = (NSNumber *)sender;
+        
+        // Back button
+        self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@""
+                                                                                 style:UIBarButtonItemStylePlain
+                                                                                target:nil
+                                                                                action:nil];
     }
 }
 
