@@ -1,4 +1,4 @@
 platform :ios, '6.0'
 pod 'AFNetworking', '~> 2.0.3'
 pod 'SDWebImage', '~> 3.5'
-pod 'vfrReader', '~> 2.6.2'
+pod 'RoboReaderPDF', '~> 0.1.0'

@@ -12,6 +12,7 @@
 @interface RevistasViewController ()
 
 @property (nonatomic, strong) NSArray *apiData;
+@property (nonatomic, strong) RoboViewController *roboViewController;
 
 @end
 
@@ -41,6 +42,12 @@
     _apiData = [NSJSONSerialization JSONObjectWithData:[fileContent dataUsingEncoding:NSUTF8StringEncoding] options:kNilOptions error:nil];
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [[self navigationController] setNavigationBarHidden:NO animated:animated];
+}
+
 #pragma mark - Table view data source
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -61,12 +68,11 @@
     NSLog(@"%@", _apiData);
     
     NSDictionary *magazine = _apiData[indexPath.row];
-    
     cell.labelTitle.text = magazine[@"title"];
     cell.labelSubtitle.text = magazine[@"subtitle"];
     cell.imagePreview.image = [UIImage imageNamed:magazine[@"cover"]];
     
-    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+//    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
     return cell;
 }
@@ -74,6 +80,40 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return 177;
+}
+
+
+#pragma mark - TableView Delegate
+#
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"index %i", indexPath.row);
+    
+    NSDictionary *magazine = _apiData[indexPath.row];
+    NSArray *fileName = [magazine[@"pdf"] componentsSeparatedByString:@"."];
+    
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:fileName[0] ofType:fileName[1]];
+    assert(filePath != nil);
+    
+    RoboDocument *document = [RoboDocument withDocumentFilePath:filePath password:nil];
+    
+    if (document != nil) {
+        _roboViewController = [[RoboViewController alloc] initWithRoboDocument:document];
+        _roboViewController.delegate = self;
+        
+        [[self navigationController] setNavigationBarHidden:YES animated:YES];
+        [self.navigationController pushViewController:_roboViewController animated:YES];
+    }
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+
+#pragma mark - RoboReader delegate
+#
+- (void)dismissRoboViewController:(RoboViewController *)viewController
+{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 /*

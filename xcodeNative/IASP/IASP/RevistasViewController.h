@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RoboReader.h"
 
-@interface RevistasViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface RevistasViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, RoboViewControllerDelegate>
 
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 

@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>Pods-RoboReaderPDF.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>Pods-SDWebImage.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -28,6 +33,21 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>1BF33FFF69D94E56849E5047</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62961D3CB9E7412783F56335</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6395AD9A9C9A4A159C26E0D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6BEB615510B9452898A2D0C2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -58,6 +78,11 @@
 			<true/>
 		</dict>
 		<key>E000D02FD1D54489895BB48B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E4EE2EE248F34F6A918A629F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
