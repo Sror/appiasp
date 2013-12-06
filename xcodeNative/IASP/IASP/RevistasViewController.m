@@ -100,6 +100,7 @@
     if (document != nil) {
         _roboViewController = [[RoboViewController alloc] initWithRoboDocument:document];
         _roboViewController.delegate = self;
+        _roboViewController.title = magazine[@"title"];
         
         [[self navigationController] setNavigationBarHidden:YES animated:YES];
         [self.navigationController pushViewController:_roboViewController animated:YES];
