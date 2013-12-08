@@ -58,7 +58,7 @@
     }
     
     // Line
-    UIView *line = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 1)];
+    UIView *line = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 1)];
     line.backgroundColor = [UIColor whiteColor];
     line.alpha = 0.3;
     [cell addSubview:line];
