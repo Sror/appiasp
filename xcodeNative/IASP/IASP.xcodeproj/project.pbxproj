@@ -31,6 +31,8 @@
 		1AC32E03185254FC004095A2 /* Edicao1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1AC32E01185254FC004095A2 /* Edicao1.pdf */; };
 		1AC32E04185254FC004095A2 /* revistas.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AC32E02185254FC004095A2 /* revistas.json */; };
 		1AC32E0618525BA7004095A2 /* Edicao1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC32E0518525BA7004095A2 /* Edicao1.png */; };
+		1ACA72241854E3E100B48195 /* ContatoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA72231854E3E100B48195 /* ContatoViewController.m */; };
+		1ACA72271854E8ED00B48195 /* ContatoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA72261854E8ED00B48195 /* ContatoViewCell.m */; };
 		53673F0BA658407395E24F1C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E464A945B21749D9A0BE7C0F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +81,10 @@
 		1AC32E01185254FC004095A2 /* Edicao1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Edicao1.pdf; sourceTree = "<group>"; };
 		1AC32E02185254FC004095A2 /* revistas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = revistas.json; sourceTree = "<group>"; };
 		1AC32E0518525BA7004095A2 /* Edicao1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Edicao1.png; sourceTree = "<group>"; };
+		1ACA72221854E3E100B48195 /* ContatoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContatoViewController.h; sourceTree = "<group>"; };
+		1ACA72231854E3E100B48195 /* ContatoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContatoViewController.m; sourceTree = "<group>"; };
+		1ACA72251854E8ED00B48195 /* ContatoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContatoViewCell.h; sourceTree = "<group>"; };
+		1ACA72261854E8ED00B48195 /* ContatoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContatoViewCell.m; sourceTree = "<group>"; };
 		642C309C3E8C40C293EAC855 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		E464A945B21749D9A0BE7C0F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -146,8 +152,6 @@
 				1AC32E00185254FC004095A2 /* Resources */,
 				1AB21FB8184EADF900FC0233 /* AppDelegate.h */,
 				1AB21FB9184EADF900FC0233 /* AppDelegate.m */,
-				1AB21FBB184EADF900FC0233 /* Main_iPhone.storyboard */,
-				1AB21FBE184EADF900FC0233 /* Main_iPad.storyboard */,
 				1AB21FC1184EADF900FC0233 /* ViewController.h */,
 				1AB21FC2184EADF900FC0233 /* ViewController.m */,
 				1AB21FE1184EC09400FC0233 /* NoticiasViewController.h */,
@@ -160,7 +164,13 @@
 				1AC32DFB18517391004095A2 /* RevistasViewController.m */,
 				1AC32DFD18523C27004095A2 /* RevistasViewCell.h */,
 				1AC32DFE18523C27004095A2 /* RevistasViewCell.m */,
+				1ACA72221854E3E100B48195 /* ContatoViewController.h */,
+				1ACA72231854E3E100B48195 /* ContatoViewController.m */,
+				1ACA72251854E8ED00B48195 /* ContatoViewCell.h */,
+				1ACA72261854E8ED00B48195 /* ContatoViewCell.m */,
 				1AB21FC4184EADF900FC0233 /* Images.xcassets */,
+				1AB21FBB184EADF900FC0233 /* Main_iPhone.storyboard */,
+				1AB21FBE184EADF900FC0233 /* Main_iPad.storyboard */,
 				1AB21FB0184EADF900FC0233 /* Supporting Files */,
 			);
 			path = IASP;
@@ -346,7 +356,9 @@
 				1AB21FE3184EC09400FC0233 /* NoticiasViewController.m in Sources */,
 				1AC32DFF18523C27004095A2 /* RevistasViewCell.m in Sources */,
 				1A2FD50A185156C500B482DD /* NoticiasDetailsViewController.m in Sources */,
+				1ACA72271854E8ED00B48195 /* ContatoViewCell.m in Sources */,
 				1AB21FC3184EADF900FC0233 /* ViewController.m in Sources */,
+				1ACA72241854E3E100B48195 /* ContatoViewController.m in Sources */,
 				1AB21FBA184EADF900FC0233 /* AppDelegate.m in Sources */,
 				1A5C79F3184FE6FE00FC42C0 /* NoticiasViewCell.m in Sources */,
 				1AB21FB6184EADF900FC0233 /* main.m in Sources */,

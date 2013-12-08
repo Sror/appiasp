@@ -90,10 +90,10 @@
             [self performSegueWithIdentifier:@"noticias" sender:nil];
             break;
         case 2:
-            
+            [self openThisURL:@"https://sigaweb.iasp.br/aluno/"];
             break;
         case 3:
-            
+            [self performSegueWithIdentifier:@"contato" sender:nil];
             break;
             
         default:
@@ -146,6 +146,11 @@
     } else {
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:fallback]];
     }
+}
+
+- (void)openThisURL:(NSString *)launchUrl
+{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:launchUrl]];
 }
 
 @end
