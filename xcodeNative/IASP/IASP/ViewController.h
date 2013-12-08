@@ -12,4 +12,6 @@
 
 @property (strong, nonatomic) IBOutlet UITableView *tableViewMenu;
 
+- (IBAction)didTouchOnButton:(UIButton *)sender;
+
 @end

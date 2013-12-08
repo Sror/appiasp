@@ -118,4 +118,34 @@
                                                                             action:nil];
 }
 
+- (IBAction)didTouchOnButton:(UIButton *)sender
+{
+    switch (sender.tag) {
+        case 1:
+            [self openThisURL:@"fb://profile/100736133344698" withFallback:@"https://www.facebook.com/face.iasp"];
+            break;
+        case 2:
+            [self openThisURL:@"twitter://user?screen_name=iasp_unasp" withFallback:@"https://twitter.com/iasp_unasp"];
+            break;
+        case 3:
+            [self openThisURL:@"pinterest://user/unaspht/" withFallback:@"http://www.pinterest.com/unaspht/"];
+            break;
+        case 4:
+            [self openThisURL:@"instagram://user?username=iaspht" withFallback:@"http://instagram.com/iaspht"];
+            break;
+            
+        default:
+            break;
+    }
+}
+
+- (void)openThisURL:(NSString *)launchUrl withFallback:(NSString *)fallback
+{
+    if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:launchUrl]]) {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:launchUrl]];
+    } else {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:fallback]];
+    }
+}
+
 @end
