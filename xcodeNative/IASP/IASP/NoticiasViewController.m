@@ -39,15 +39,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-//    NSURL *URL = [NSURL URLWithString:@"http://iasp.br/appios/ws/?function=GetLastsNoticiasByCategory&categoryId=2"];
-//    NSURLRequest *request = [NSURLRequest requestWithURL:URL];
-//    AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc]
-//                                         initWithRequest:request];
-//    operation.responseSerializer = [AFJSONResponseSerializer serializer];
-//    [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
-//        NSLog(@"%@", responseObject);
-//    } failure:nil];
-//    [operation start];
+    [self getNews];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -55,9 +47,11 @@
     [super viewWillAppear:animated];
     [[self navigationController] setNavigationBarHidden:NO animated:animated];
     
-    _tableViewNoticias.separatorStyle = UITableViewCellSeparatorStyleNone;
+    self.navigationController.navigationBar.translucent = NO;
+    if ([self respondsToSelector:@selector(edgesForExtendedLayout)])
+        self.edgesForExtendedLayout = UIRectEdgeNone;   // iOS 7 specific
     
-    [self getNews];
+    _tableViewNoticias.separatorStyle = UITableViewCellSeparatorStyleNone;
 }
 
 - (void)getNews

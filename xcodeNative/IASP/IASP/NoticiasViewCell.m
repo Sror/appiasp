@@ -19,7 +19,6 @@
         self.labelDate = [[UILabel alloc] initWithFrame:CGRectMake(15, 34, CGRectGetWidth(self.frame)-30, 25)];
         self.labelDate.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:14];
         self.labelDate.textColor = [UIColor colorWithRed:167/255.0 green:167/255.0 blue:167/255.0 alpha:1.0];
-        self.labelDate.backgroundColor = [UIColor redColor];
         
         //
         self.imagePreview = [[UIImageView alloc] initWithFrame:CGRectMake(0,
@@ -34,7 +33,6 @@
         self.labelTitle.textColor = [UIColor colorWithRed:45/255.0 green:45/255.0 blue:45/255.0 alpha:1];
         self.labelTitle.numberOfLines = 0;
         self.labelTitle.lineBreakMode = NSLineBreakByWordWrapping;
-        self.labelTitle.backgroundColor = [UIColor redColor];
         
         
         //
@@ -45,7 +43,6 @@
         self.labelPreview.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:14];
         self.labelPreview.textColor = [UIColor colorWithRed:94/255.0 green:94/255.0 blue:94/255.0 alpha:1];
         self.labelPreview.numberOfLines = 0;
-        self.labelPreview.backgroundColor = [UIColor redColor];
         
         
         
