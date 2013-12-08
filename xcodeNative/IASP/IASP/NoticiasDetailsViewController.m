@@ -55,7 +55,7 @@
     
     NSString *embedHTML = [NSString stringWithFormat:@"<html><head><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"></head><body style=\"margin:0; padding:0\"><img src=\"%@\"><div class=\"news-detail\"><p class=\"date\">%@</p><p class=\"title\">%@</p>%@</div></body></html>", _noticia[@"image"], _noticia[@"date"], _noticia[@"title"], _noticia[@"content"]];
     
-    UIWebView *webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 64, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame)-64)];
+    UIWebView *webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame))];
     [webView loadHTMLString:embedHTML baseURL:baseURL];
     webView.opaque = NO;
     webView.backgroundColor = [UIColor clearColor];

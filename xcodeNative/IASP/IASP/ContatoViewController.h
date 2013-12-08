@@ -12,4 +12,6 @@
 
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 
+- (IBAction)submitAction:(id)sender;
+
 @end

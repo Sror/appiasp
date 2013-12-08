@@ -191,7 +191,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="nZE-YP-SrW"/>
+                    <navigationItem key="navigationItem" id="nZE-YP-SrW">
+                        <barButtonItem key="rightBarButtonItem" title="Enviar" id="ibG-L5-m8r">
+                            <color key="tintColor" red="1" green="0.50196078431372548" blue="0.16078431372549018" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="submitAction:" destination="aQW-XM-g4f" id="zbj-SH-36f"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="Evp-vC-SNg" id="Rav-HS-koB"/>
                     </connections>
