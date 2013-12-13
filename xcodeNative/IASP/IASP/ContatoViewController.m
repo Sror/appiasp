@@ -166,45 +166,50 @@
     if ([form count] == [_fields count]) {
         if ([self validateEmail:form[1]]) {
             
-            AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
             NSDictionary *parameters = @{
                                          @"name": form[0],
                                          @"email": form[1],
                                          @"message": form[2]
                                          };
-            NSLog(@"envia form %@", parameters);
             
+            AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
             [manager POST:@"http://iasp.br/appios/ws/?function=Contact" parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
-                
-//                if ([responseObject isEqualToString:@"Enviado com sucesso"]) {
-                    [TSMessage showNotificationWithTitle:responseObject
-                                                subtitle:nil
-                                                    type:TSMessageNotificationTypeSuccess];
-//                } else {
-//                    [TSMessage showNotificationWithTitle:responseObject
-//                                                subtitle:nil
-//                                                    type:TSMessageNotificationTypeError];
-//                }
-                
                 NSLog(@"JSON: %@", responseObject);
+                
+                NSDictionary *response = (NSDictionary *)responseObject;
+                
+                if ([response[@"message"] isEqualToString:@"Enviado com sucesso"]) {
+                    [TSMessage showNotificationInViewController:self.navigationController
+                                                          title:response[@"message"]
+                                                       subtitle:nil
+                                                           type:TSMessageNotificationTypeSuccess
+                                                       duration:1.5
+                                                       callback:nil
+                                                    buttonTitle:nil
+                                                 buttonCallback:nil
+                                                     atPosition:TSMessageNotificationPositionTop
+                                            canBeDismisedByUser:NO];
+                    
+                    double delayInSeconds = 2.0;
+                    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+                    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+                        [self.navigationController popViewControllerAnimated:YES];
+                    });
+                } else {
+                    [TSMessage showNotificationWithTitle:response[@"message"] type:TSMessageNotificationTypeError];
+                }
+                
             } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
                 NSLog(@"ERROR: %@", error);
                 
-                [TSMessage showNotificationWithTitle:@"Erro ao enviar, tente novamente."
-                                            subtitle:nil
-                                                type:TSMessageNotificationTypeError];
+                [TSMessage showNotificationWithTitle:@"Erro ao enviar, tente novamente." type:TSMessageNotificationTypeError];
             }];
+            
+        } else {
+            [TSMessage showNotificationWithTitle:@"E-mail inválido" type:TSMessageNotificationTypeError];
         }
-        else {
-            [TSMessage showNotificationWithTitle:@"E-mail inválido"
-                                        subtitle:nil
-                                            type:TSMessageNotificationTypeError];
-        }
-    }
-    else {
-        [TSMessage showNotificationWithTitle:@"Você precisa preencher tudo"
-                                    subtitle:nil
-                                        type:TSMessageNotificationTypeError];
+    } else {
+        [TSMessage showNotificationWithTitle:@"Você precisa preencher tudo" type:TSMessageNotificationTypeError];
     }
 }
 
