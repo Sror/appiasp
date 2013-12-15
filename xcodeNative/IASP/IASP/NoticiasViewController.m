@@ -93,7 +93,8 @@
                                  lineBreakMode:NSLineBreakByWordWrapping];
     CGFloat heightPreview = MAX(sizePreview.height, 44.0f);
     
-    return heightText + heightPreview + 356;
+    NSInteger space = ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad ) ? 541 : 356;
+    return heightText + heightPreview + space;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath

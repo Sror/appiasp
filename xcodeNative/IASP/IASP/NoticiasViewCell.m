@@ -16,15 +16,20 @@
     if (self) {
         // Initialization code
         
+        if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad ) {
+            self.frame = CGRectMake(85, 0, 568, self.frame.size.height);
+        }
+        
         self.labelDate = [[UILabel alloc] initWithFrame:CGRectMake(15, 34, CGRectGetWidth(self.frame)-30, 25)];
         self.labelDate.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:14];
         self.labelDate.textColor = [UIColor colorWithRed:167/255.0 green:167/255.0 blue:167/255.0 alpha:1.0];
         
         //
+        NSInteger height = ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad ) ? 397 : 212;
         self.imagePreview = [[UIImageView alloc] initWithFrame:CGRectMake(0,
                                                                           CGRectGetHeight(self.labelDate.frame)+44,
                                                                           CGRectGetWidth(self.frame),
-                                                                          212)];
+                                                                          height)];
         self.imagePreview.backgroundColor = [UIColor lightGrayColor];
         
         //

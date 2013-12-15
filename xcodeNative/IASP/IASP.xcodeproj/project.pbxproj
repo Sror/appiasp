@@ -265,9 +265,6 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Heberti Almeida";
 				TargetAttributes = {
-					1AB21FA5184EADF900FC0233 = {
-						DevelopmentTeam = 32F2T8EJ6G;
-					};
 					1AB21FC9184EADFA00FC0233 = {
 						TestTargetID = 1AB21FA5184EADF900FC0233;
 					};
