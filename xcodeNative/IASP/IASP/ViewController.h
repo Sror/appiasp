@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (strong, nonatomic) IBOutlet UITableView *tableViewMenu;
+@property (strong, nonatomic) IBOutlet UIView *buttons;
 
 - (IBAction)didTouchOnButton:(UIButton *)sender;
 

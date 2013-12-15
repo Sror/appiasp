@@ -33,12 +33,29 @@
     [super viewWillAppear:animated];
     [[self navigationController] setNavigationBarHidden:YES animated:YES];
     self.navigationController.navigationBar.translucent = NO;
+    
+    if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
+        if ([self hasFourInchDisplay]) {
+            NSLog(@"4inc");
+            _tableViewMenu.frame = CGRectMake(0, 394, 320, 174);
+        } else {
+            _tableViewMenu.frame = CGRectMake(0, 305, 320, 174);
+            
+            CGRect frame = _buttons.frame;
+            frame.origin.y = frame.origin.y - 90;
+            _buttons.frame = frame;
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (BOOL)hasFourInchDisplay {
+    return ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone && [UIScreen mainScreen].bounds.size.height == 568.0);
 }
 
 #pragma mark - TableView DataSource
