@@ -26,13 +26,6 @@
     
     _menuItems = @[@"Revistas", @"Notícias", @"Notas e Faltas", @"Contato"];
     _tableViewMenu.separatorStyle = UITableViewCellSeparatorStyleNone;
-}
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    [[self navigationController] setNavigationBarHidden:YES animated:YES];
-    self.navigationController.navigationBar.translucent = NO;
     
     if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
         if ([self hasFourInchDisplay]) {
@@ -46,6 +39,13 @@
             _buttons.frame = frame;
         }
     }
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [[self navigationController] setNavigationBarHidden:YES animated:YES];
+    self.navigationController.navigationBar.translucent = NO;
 }
 
 - (void)didReceiveMemoryWarning
