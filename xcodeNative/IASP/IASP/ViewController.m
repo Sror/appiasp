@@ -96,7 +96,7 @@
 #
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"index %i", indexPath.row);
+    NSLog(@"index %li", (long)indexPath.row);
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     

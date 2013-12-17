@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "62961D3CB9E7412783F56335"
+               BlueprintIdentifier = "32BF5460BA724590BB51BBAC"
                BuildableName = "libPods-RoboReaderPDF.a"
                BlueprintName = "Pods-RoboReaderPDF"
                ReferencedContainer = "container:Pods.xcodeproj">

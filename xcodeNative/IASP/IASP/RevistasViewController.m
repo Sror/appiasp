@@ -87,7 +87,7 @@
 #
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"index %i", indexPath.row);
+    NSLog(@"index %li", (long)indexPath.row);
     
     NSDictionary *magazine = _apiData[indexPath.row];
     NSArray *fileName = [magazine[@"pdf"] componentsSeparatedByString:@"."];
